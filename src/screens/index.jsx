@@ -55,7 +55,42 @@ export default function Index() {
           </div>
         </div>
       </section>
-
+      <section className="locationpointer">
+        <div className="locationpointer__left">
+          <div className="locationpointer__left__Content">
+            <div className="locationpointer__left__img">
+              <img src={locationpointerimg} alt="locationpointerimg" />
+            </div>
+          </div>
+        </div>
+        <div className="locationpointer__right">
+          <div className="locationpointer__right__content">
+            <div className="locationpointer__right__heading">
+              <span> Location </span> pointer
+            </div>
+            <div className="locationpointer__right__info">
+              <a href="#">
+                <span>1.</span> Tourism highway 0 km
+              </a>
+              <a href="#">
+                <span>2.</span> Patriata Chairlift just 1.5 km away
+              </a>
+              <a href="#">
+                <span>3.</span> Gloria Jean located at just 7 km
+              </a>
+              <a href="#">
+                <span>4.</span> Murree Express way just at 7 km
+              </a>
+              <a href="#">
+                <span>5.</span> McDonald’s Murree 8 km
+              </a>
+              <a href="#">
+                <span>6.</span> Mall Road 12 km
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className=""></section>
     </>
   );
