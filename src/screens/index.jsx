@@ -8,9 +8,16 @@ import {
   mostluxuryright,
   basedright,
   basedleft,
+  swiperimg,
 } from "../assets/index.js";
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import { Navigation, A11y } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export const loader = async () => {
   return "";
@@ -68,7 +75,7 @@ export default function Index() {
         <div className="most__luxury__left">
           <div className="most__luxury__left__img">
             <img
-              className="most__luxury__left__image"
+              className="ourproject__swiper__img"
               src={mostluxuryimg}
               alt="mostluxuryimg"
             />
@@ -320,6 +327,96 @@ export default function Index() {
               trolleys. . Laundry is available on premises.
             </div>
             <button className="aboutjseven__right__button">Read More</button>
+          </div>
+        </div>
+      </section>
+      <section className="ourproject">
+        <div className="ourproject__left">
+          <div className="ourproject__left__heading">
+            <span> Other </span>Projects
+          </div>
+        </div>
+        <div className="ourproject__right">
+          <div>
+            <Swiper
+              modules={[Navigation, A11y]}
+              spaceBetween={50}
+              slidesPerView={3}
+              navigation
+              onSwiper={(swiper) => console.log(swiper)}
+              onSlideChange={() => console.log("slide change")}
+            >
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="ourproject__swiper__img"
+                  src={swiperimg}
+                  alt=" swiperimg"
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </section>
