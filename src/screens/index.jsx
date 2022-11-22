@@ -91,7 +91,28 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className=""></section>
+      <section className="locationfeatures">
+        <div className="locationfeatures__left">
+          <div className="locationfeatures__left__content">
+            <div className="locationfeatures__left__heading">
+              <span> Location </span> features
+            </div>
+            <div className="locationfeatures__left__info">
+              Dream Home is a gated community with a great location. Located
+              downtown, you’re within walking distance of Parks, and the best
+              shopping, dining and entertainment Getting around is a breeze,
+              with easy access to freeways, buses and trolleys. . Laundry is
+              available on premises.
+            </div>
+            <div className="locationfeatures__left__points">
+              <a href="#">
+                <span></span> Located just in front of tourism highway.
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="locationfeatures__right"></div>
+      </section>
     </>
   );
 }
