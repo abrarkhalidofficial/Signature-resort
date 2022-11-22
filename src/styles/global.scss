@@ -107,7 +107,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1920px;
   // margin: 10em 10em;
   padding-top: 8em;
 }
@@ -167,46 +167,49 @@ body {
   padding-right: 2em;
   margin-top: 4em;
 }
-.our__best__luxury {
+.ourbest {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1440px;
-  padding-top: 15em;
-  padding-bottom: 15em;
+  max-width: 1920px;
+  margin: 4em 0em;
 }
+
 .our__best__luxury__card {
   display: flex;
   padding: 0.7em 0em;
   align-items: center;
   background-color: #f4f4f4;
-  max-width: 630px;
+  margin: 1em 0em;
+  margin-right: 1em;
 }
-
-.our__best__luxury__right {
+.ourbest__left {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  margin: 0 auto;
 }
-.our__best__luxury__left {
+.ourbest__right {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.our__best__luxury__right__img {
-  margin-top: 12em;
-  position: relative;
+.ourbest__right__img {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.our__best__luxury__right__img::before {
-  content: "";
-  background-color: #ebb93b;
-  right: 0;
-  top: -2.8em;
-  bottom: -7em;
-  z-index: -999;
-
-  position: absolute;
-  width: 130px;
-  height: 120px;
+.our__best__luxury__card__card_main {
+  max-height: 300px;
+  overflow-y: scroll;
 }
-.our__best__luxury__left__text {
+.ourbest__left__text {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -234,16 +237,14 @@ body {
   line-height: 30px;
   color: #000000;
 }
-.our__best__luxury__left__heading {
-  font-family: "El Messiri", prata;
-  font-weight: 600;
-  font-size: 56px;
-  line-height: 60px;
-  width: 90%;
-  margin-bottom: 1em;
-}
-.our__best__luxury__left__heading span {
+.ourbest__left__heading {
+  font-size: 45px;
+  font-family: "Prata", serif;
   color: #105a4e;
+}
+.ourbest__left__heading span {
+  color: #ebb93b;
+  font-family: "Prata", serif;
 }
 .our__project {
   display: flex;
@@ -264,7 +265,10 @@ body {
 .our__project__right {
   width: 65%;
 }
-
+.most__luxury__right__image:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
 .swiper-pagination-bullet swiper-pagination-bullet-active {
   background-color: red !important;
   color: red !important;
@@ -421,7 +425,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 550px;
+  max-width: 450px;
   margin: 0 auto;
 }
 .aboutjseven__left__img img {

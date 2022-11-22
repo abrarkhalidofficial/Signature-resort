@@ -6,6 +6,8 @@ import {
   aboutjsevenimg,
   mostluxuryimg,
   mostluxuryright,
+  basedright,
+  basedleft,
 } from "../assets/index.js";
 import React from "react";
 import { useLoaderData } from "react-router-dom";
@@ -62,7 +64,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="most__luxury">
+      {/* <section className="most__luxury">
         <div className="most__luxury__left">
           <div className="most__luxury__left__img">
             <img
@@ -92,19 +94,131 @@ export default function Index() {
             <div className="most__luxury__right__pics">
               <div className="most__luxury__right__picture">
                 <img
-                  className="most__luxury__left__image"
+                  className="most__luxury__right__image"
                   src={mostluxuryright}
                   alt="mostluxuryright"
                 />
               </div>
               <div className="most__luxury__right__picture">
                 <img
-                  className="most__luxury__left__image"
+                  className="most__luxury__right__image"
                   src={mostluxuryright}
                   alt="mostluxuryright"
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section> */}
+      <section className="ourbest">
+        <div className="ourbest__left">
+          <div className="ourbest__left__content">
+            <div className="ourbest__left__text">Our best luxury features</div>
+            <div className="ourbest__left__heading">
+              <span>Pakistan first</span> theme based resort
+            </div>
+
+            <div className="our__best__luxury__card__card_main">
+              <div className="our__best__luxury__card">
+                <div className="our__best__luxury__card__left">
+                  <img
+                    className="our__best__luxury__card__left__img"
+                    src={basedleft}
+                    alt="basedleft"
+                  />
+                </div>
+                <div className="our__best__luxury__card__right">
+                  <div className="our__best__luxury__card__right__text">
+                    Club facility
+                  </div>
+                  <div className="our__best__luxury__card__right__para">
+                    Dream Home is a gated community with a great location
+                    located downtown.
+                  </div>
+                </div>
+              </div>
+              <div className="our__best__luxury__card">
+                <div className="our__best__luxury__card__left">
+                  <img
+                    className="our__best__luxury__card__left__img"
+                    src={basedleft}
+                    alt="basedleft"
+                  />
+                </div>
+                <div className="our__best__luxury__card__right">
+                  <div className="our__best__luxury__card__right__text">
+                    Club facility
+                  </div>
+                  <div className="our__best__luxury__card__right__para">
+                    Dream Home is a gated community with a great location
+                    located downtown.
+                  </div>
+                </div>
+              </div>
+              <div className="our__best__luxury__card">
+                <div className="our__best__luxury__card__left">
+                  <img
+                    className="our__best__luxury__card__left__img"
+                    src={basedleft}
+                    alt="basedleft"
+                  />
+                </div>
+                <div className="our__best__luxury__card__right">
+                  <div className="our__best__luxury__card__right__text">
+                    Club facility
+                  </div>
+                  <div className="our__best__luxury__card__right__para">
+                    Dream Home is a gated community with a great location
+                    located downtown.
+                  </div>
+                </div>
+              </div>
+              <div className="our__best__luxury__card">
+                <div className="our__best__luxury__card__left">
+                  <img
+                    className="our__best__luxury__card__left__img"
+                    src={basedleft}
+                    alt="basedleft"
+                  />
+                </div>
+                <div className="our__best__luxury__card__right">
+                  <div className="our__best__luxury__card__right__text">
+                    Club facility
+                  </div>
+                  <div className="our__best__luxury__card__right__para">
+                    Dream Home is a gated community with a great location
+                    located downtown.
+                  </div>
+                </div>
+              </div>
+              <div className="our__best__luxury__card">
+                <div className="our__best__luxury__card__left">
+                  <img
+                    className="our__best__luxury__card__left__img"
+                    src={basedleft}
+                    alt="basedleft"
+                  />
+                </div>
+                <div className="our__best__luxury__card__right">
+                  <div className="our__best__luxury__card__right__text">
+                    Club facility
+                  </div>
+                  <div className="our__best__luxury__card__right__para">
+                    Dream Home is a gated community with a great location
+                    located downtown.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ourbest__right">
+          <div className="ourbest__right__content">
+            <img
+              className="ourbest__right__img"
+              src={basedright}
+              alt="basedright"
+            />
           </div>
         </div>
       </section>

@@ -7,3 +7,5 @@ export { default as locationfeaturesimg } from "../assets/locationfeaturesimg.pn
 export { default as aboutjsevenimg } from "../assets/aboutjsevenimg.png";
 export { default as footerlogo } from "../assets/footerlogo.png";
 export { default as footerrightimg } from "../assets/footerrightimg.png";
+export { default as basedright } from "../assets/basedright.png";
+export { default as basedleft } from "../assets/basedleft.png";
