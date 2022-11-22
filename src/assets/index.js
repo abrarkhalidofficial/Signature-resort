@@ -10,3 +10,4 @@ export { default as footerrightimg } from "../assets/footerrightimg.png";
 export { default as basedright } from "../assets/basedright.png";
 export { default as basedleft } from "../assets/basedleft.png";
 export { default as swiperimg } from "../assets/swiperimg.png";
+export { default as signlogo } from "../assets/signlogo.png";
