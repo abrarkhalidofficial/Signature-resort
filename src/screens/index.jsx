@@ -216,6 +216,42 @@ export default function Index() {
                   </div>
                 </div>
               </div>
+              <div className="our__best__luxury__card">
+                <div className="our__best__luxury__card__left">
+                  <img
+                    className="our__best__luxury__card__left__img"
+                    src={basedleft}
+                    alt="basedleft"
+                  />
+                </div>
+                <div className="our__best__luxury__card__right">
+                  <div className="our__best__luxury__card__right__text">
+                    Club facility
+                  </div>
+                  <div className="our__best__luxury__card__right__para">
+                    Dream Home is a gated community with a great location
+                    located downtown.
+                  </div>
+                </div>
+              </div>
+              <div className="our__best__luxury__card">
+                <div className="our__best__luxury__card__left">
+                  <img
+                    className="our__best__luxury__card__left__img"
+                    src={basedleft}
+                    alt="basedleft"
+                  />
+                </div>
+                <div className="our__best__luxury__card__right">
+                  <div className="our__best__luxury__card__right__text">
+                    Club facility
+                  </div>
+                  <div className="our__best__luxury__card__right__para">
+                    Dream Home is a gated community with a great location
+                    located downtown.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
