@@ -593,13 +593,19 @@ body::-webkit-scrollbar-track {
     flex-direction: column;
   }
   .footer__left {
-    width: 100%;
+    width: 85%;
+    text-align: center;
   }
   .footer__mid {
+    width: 100%;
+    padding-top: 2em;
+  }
+  .footer__mid__content {
     width: 40%;
   }
   .footer__right {
     width: 100%;
+    padding-top: 4em;
   }
 }
 @media (max-width: 1150px) {
@@ -696,6 +702,9 @@ body::-webkit-scrollbar-track {
   .ourbest__right__img {
     width: 460px;
   }
+  .footer__mid__content {
+    width: 55%;
+  }
 }
 @media (max-width: 550px) {
   .homesection__left__heading {
@@ -775,6 +784,9 @@ body::-webkit-scrollbar-track {
   .aboutjseven__right__content {
     margin: 0em 1em;
   }
+  .footer__mid__content {
+    width: 70%;
+  }
 }
 @media (max-width: 450px) {
   .homesection__right__img img {
@@ -806,6 +818,12 @@ body::-webkit-scrollbar-track {
     margin: 0em 1em;
   }
   .locationpointer__right__info a {
+    font-size: 16px;
+  }
+  .footer__mid__heading {
+    font-size: 18px;
+  }
+  .footer__mid__links a {
     font-size: 16px;
   }
 }
