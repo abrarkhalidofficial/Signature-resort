@@ -1,5 +1,9 @@
 import { Head, Link } from "router";
-import { homesectionimg, locationpointerimg } from "../assets/index.js";
+import {
+  homesectionimg,
+  locationpointerimg,
+  locationfeaturesimg,
+} from "../assets/index.js";
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 
@@ -106,12 +110,27 @@ export default function Index() {
             </div>
             <div className="locationfeatures__left__points">
               <a href="#">
-                <span></span> Located just in front of tourism highway.
+                <span className="spanpoint"></span> Located just in front of
+                tourism highway.
+              </a>
+              <a href="#">
+                <span className="spanpoint"></span> Located just in front of
+                tourism highway.
+              </a>
+              <a href="#">
+                <span className="spanpoint"></span> Located just in front of
+                tourism highway.
               </a>
             </div>
           </div>
         </div>
-        <div className="locationfeatures__right"></div>
+        <div className="locationfeatures__right">
+          <div className="locationfeatures__right__content">
+            <div className="locationfeatures__right__img">
+              <img src={locationfeaturesimg} alt="locationfeaturesimg" />
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

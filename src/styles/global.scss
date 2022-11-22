@@ -146,3 +146,65 @@ body {
 .locationpointer__right__info a:hover {
   color: #ebb93b;
 }
+.locationfeatures {
+  width: 100%;
+  display: flex;
+
+  margin: 0 auto;
+  max-width: 1920px;
+  margin-top: 3em;
+}
+.locationfeatures__left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.locationfeatures__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locationfeatures__right__img img {
+  width: 650px;
+}
+.locationfeatures__left__heading {
+  font-size: 45px;
+  font-family: "Prata", serif;
+  margin-bottom: 0.8em;
+}
+.locationfeatures__left__heading span {
+  color: #105a4e;
+  font-family: "Prata", serif;
+}
+.locationfeatures__left__info {
+  color: #4d4c4c;
+  font-family: "Montserrat", sans-serif;
+  margin: 2em 0em;
+}
+.locationfeatures__left__points {
+  display: grid;
+}
+
+.locationfeatures__left__points a {
+  font-family: "Montserrat", sans-serif;
+  margin: 0.7em 0em;
+  font-size: 18px;
+  text-decoration: none;
+  color: #105a4e;
+}
+.locationfeatures__left__points a:hover {
+  color: #ebb93b;
+}
+
+.spanpoint {
+  color: #ebb93b;
+  font-weight: bold;
+  padding: 0.1em 0.6em;
+  margin-right: 0.6em;
+  border-radius: 50px;
+  background-color: #ebb93b;
+}
