@@ -15,6 +15,8 @@ body {
   overflow-x: hidden;
   font-family: "Prata", serif;
 }
+
+////home
 .homesection {
   width: 100%;
   display: flex;
@@ -98,6 +100,199 @@ body {
 .homesection__right__svg:hover * {
   fill: #105a4e;
 }
+
+////luxury
+.most__luxury {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  // margin: 10em 10em;
+  padding-top: 8em;
+}
+.most__luxury__right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.most__luxury__left__img {
+  width: 100%;
+}
+.most__luxury__right__content {
+  max-width: 500px;
+}
+.most__luxury__left {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.most__luxury__left img {
+  width: 600px;
+}
+.most__luxury__right__main__heading span {
+  color: #ebb93b;
+  font-family: "Prata", serif;
+}
+.most__luxury__right__main__heading {
+  font-family: "Prata", serif;
+  font-size: 45px;
+  color: #105a4e;
+}
+
+.most__luxury__right__info {
+  font-family: "Montserrat", sans-serif;
+  color: #105a4e;
+  margin: 2em 0em;
+}
+
+.most__luxury__right__button {
+  background-color: #ebb93b;
+  color: #fff;
+  padding: 0.9em 2em;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.most__luxury__right__button:hover {
+  background-color: #105a4e;
+}
+.most__luxury__right__pics {
+  display: flex;
+}
+.most__luxury__right__picture {
+  padding-right: 2em;
+  margin-top: 4em;
+}
+.our__best__luxury {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 15em;
+  padding-bottom: 15em;
+}
+.our__best__luxury__card {
+  display: flex;
+  padding: 0.7em 0em;
+  align-items: center;
+  background-color: #f4f4f4;
+  max-width: 630px;
+}
+
+.our__best__luxury__right {
+  width: 50%;
+}
+.our__best__luxury__left {
+  width: 50%;
+}
+.our__best__luxury__right__img {
+  margin-top: 12em;
+  position: relative;
+}
+.our__best__luxury__right__img::before {
+  content: "";
+  background-color: #ebb93b;
+  right: 0;
+  top: -2.8em;
+  bottom: -7em;
+  z-index: -999;
+
+  position: absolute;
+  width: 130px;
+  height: 120px;
+}
+.our__best__luxury__left__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Montserrat";
+  color: #1f1f1f6b;
+  margin: 1em 0em;
+}
+.our__best__luxury__card__right {
+  width: fit-content;
+}
+.our__best__luxury__card__right {
+  flex-direction: column;
+  padding: 0em 2em;
+}
+.our__best__luxury__card__right__para {
+  color: #4d4c4c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  width: 80%;
+}
+.our__best__luxury__card__right__text {
+  font-size: 20px;
+  font-family: "El Messiri", prata;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000000;
+}
+.our__best__luxury__left__heading {
+  font-family: "El Messiri", prata;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 60px;
+  width: 90%;
+  margin-bottom: 1em;
+}
+.our__best__luxury__left__heading span {
+  color: #105a4e;
+}
+.our__project {
+  display: flex;
+}
+.our__project__left {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+.our__project__left__heading {
+  font-family: "prata";
+  font-size: 42px;
+  margin-top: 4em;
+}
+.our__project__left__heading span {
+  color: #105a4e;
+}
+.our__project__right {
+  width: 65%;
+}
+
+.swiper-pagination-bullet swiper-pagination-bullet-active {
+  background-color: red !important;
+  color: red !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #ededed !important;
+  width: 50px !important;
+  height: 50px !important;
+  color: #ebb93b !important;
+  padding: 1em !important;
+  border-radius: 5px !important;
+  margin-left: 2em !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  scale: 0.5;
+}
+.swiper-button-disabled {
+  background-color: #1f4149 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ebb93b !important;
+  width: 20px !important;
+  border-radius: 20px !important;
+}
+///location pointer
 .locationpointer {
   width: 100%;
   display: flex;

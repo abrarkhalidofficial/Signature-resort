@@ -4,6 +4,8 @@ import {
   locationpointerimg,
   locationfeaturesimg,
   aboutjsevenimg,
+  mostluxuryimg,
+  mostluxuryright,
 } from "../assets/index.js";
 import React from "react";
 import { useLoaderData } from "react-router-dom";
@@ -55,6 +57,52 @@ export default function Index() {
                     stroke=""
                   />
                 </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="most__luxury">
+        <div className="most__luxury__left">
+          <div className="most__luxury__left__img">
+            <img
+              className="most__luxury__left__image"
+              src={mostluxuryimg}
+              alt="mostluxuryimg"
+            />
+          </div>
+        </div>
+        <div className="most__luxury__right">
+          <div className="most__luxury__right__content">
+            <div className="most__luxury__right__main__heading">
+              <span>Most luxury </span> resorts for more discering
+            </div>
+            <div className="most__luxury__right__info">
+              Dream Home is a gated community with a great location. Located
+              downtown, you’re within walking distance of Parks, and the best
+              shopping, dining and entertainment Getting around is a breeze,
+              with easy access to freeways, buses and trolleys. . Laundry is
+              available on premises.Dream Home is a gated community with a great
+              location. Located downtown, you’re within walking distance of
+              Parks, and the best shopping, dining and entertainment Getting
+              around is a breeze, with easy access to freeways, buses and
+              trolleys. . Laundry is available on premises.
+            </div>
+            <button className="most__luxury__right__button">Read More</button>
+            <div className="most__luxury__right__pics">
+              <div className="most__luxury__right__picture">
+                <img
+                  className="most__luxury__left__image"
+                  src={mostluxuryright}
+                  alt="mostluxuryright"
+                />
+              </div>
+              <div className="most__luxury__right__picture">
+                <img
+                  className="most__luxury__left__image"
+                  src={mostluxuryright}
+                  alt="mostluxuryright"
+                />
               </div>
             </div>
           </div>
