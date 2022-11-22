@@ -208,3 +208,55 @@ body {
   border-radius: 50px;
   background-color: #ebb93b;
 }
+.aboutjseven {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
+  margin-top: 3em;
+}
+.aboutjseven__left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutjseven__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+.aboutjseven__left__img img {
+  width: 650px;
+}
+.aboutjseven__right__heading {
+  font-size: 45px;
+  font-family: "Prata", serif;
+  margin-bottom: 0.8em;
+}
+.aboutjseven__right__heading span {
+  color: #105a4e;
+  font-family: "Prata", serif;
+}
+.aboutjseven__right__info {
+  color: #4d4c4c;
+  font-family: "Montserrat", sans-serif;
+  margin: 2em 0em;
+}
+.aboutjseven__right__button {
+  background-color: #ebb93b;
+  color: #fff;
+  padding: 0.9em 2em;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.aboutjseven__right__button:hover {
+  color: #fff;
+  background-color: #105a4e;
+}
