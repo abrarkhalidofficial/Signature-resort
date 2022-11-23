@@ -19,7 +19,7 @@ export default function Header() {
   }, []);
   return (
     <section id="home" className="oakland_section">
-      <div className="oakland_section__weaper__overlay__navbar">
+      {/* <div className="oakland_section__weaper__overlay__navbar">
         <div className="oakland_section__weaper__overlay__navbar__left">
           <img
             className="oakland_section__weaper__overlay__navbar__left__logo"
@@ -60,7 +60,7 @@ export default function Header() {
             <Menu width={30} color="#b29c3f" />
           )}
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }

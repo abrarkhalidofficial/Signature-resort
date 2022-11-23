@@ -71,7 +71,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      {/* <section className="most__luxury">
+      <section className="most__luxury">
         <div className="most__luxury__left">
           <div className="most__luxury__left__img">
             <img
@@ -116,7 +116,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       <section className="ourbest">
         <div className="ourbest__left">
           <div className="ourbest__left__content">
@@ -328,6 +328,9 @@ export default function Index() {
                 tourism highway.
               </a>
             </div>
+            <button className="locationfeatures__left__button">
+              Read More
+            </button>
           </div>
         </div>
         <div className="locationfeatures__right">
@@ -368,8 +371,10 @@ export default function Index() {
       </section>
       <section className="ourproject">
         <div className="ourproject__left">
-          <div className="ourproject__left__heading">
-            <span> Other </span>Projects
+          <div className="ourproject__left__content">
+            <div className="ourproject__left__heading">
+              <span> Other </span> Projects
+            </div>
           </div>
         </div>
         <div className="ourproject__right">
