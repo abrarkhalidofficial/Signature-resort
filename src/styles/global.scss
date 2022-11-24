@@ -710,7 +710,68 @@ body::-webkit-scrollbar-track {
 }
 .swiper-slide {
   width: 400px !important;
+} //// page  linkkk
+.nextpagelink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1920px;
+  margin: 0 auto;
 }
+
+.nextpagelink__imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.Overlay__Cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  margin-top: 5em;
+}
+.Overlay__Card__con {
+  width: 50%;
+  margin: 0.4em;
+  position: relative;
+}
+.Overlay__Card__img {
+  position: relative;
+  z-index: -999;
+}
+.Overlay__Card__img img {
+  width: 100%;
+}
+.overlay__img {
+  background: linear-gradient(
+    360deg,
+    #cec3c38f 0%,
+    rgba(241, 245, 247, 0.801) 50%
+  );
+  z-index: 9999;
+  cursor: pointer;
+}
+.overlay__img:hover {
+  background: linear-gradient(180deg, #105a4e 0%, rgba(16, 90, 78, 0) 100%);
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.overlay__heading {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Prata", serif;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
 @media (max-width: 1500px) {
   .homesection__right__button__svg {
     right: 130px;
@@ -727,11 +788,7 @@ body::-webkit-scrollbar-track {
     margin: 2em;
   }
 }
-@media (max-width: 1400px) {
-  .swiper-slide {
-    // width: 280px !important;
-  }
-}
+
 @media (max-width: 1350px) {
   .ourproject__swiper__img {
     width: 100%;
@@ -879,6 +936,15 @@ body::-webkit-scrollbar-track {
     width: 100%;
     margin-bottom: 2em;
   }
+  .Overlay__Cards {
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .Overlay__Card__con {
+    width: 90% !important;
+    margin-bottom: 2em;
+  }
 }
 @media (max-width: 950px) {
   .homesection {
@@ -964,6 +1030,10 @@ body::-webkit-scrollbar-track {
   }
   .footer__right input {
     padding: 1.1em 2em;
+  }
+  .overlay__heading {
+    font-size: 28px;
+    left: 25%;
   }
 }
 @media (max-width: 550px) {
@@ -1095,6 +1165,9 @@ body::-webkit-scrollbar-track {
   .swiper-slide {
     width: 300px !important;
   }
+  .overlay__heading {
+    left: 20% !important;
+  }
 }
 @media (max-width: 450px) {
   .homesection__right__img img {
@@ -1156,6 +1229,12 @@ body::-webkit-scrollbar-track {
 
   .most__luxury__left img {
     width: 300px;
+  }
+}
+@media (max-width: 380px) {
+  .overlay__heading {
+    left: 20% !important;
+    font-size: 22px;
   }
 }
 

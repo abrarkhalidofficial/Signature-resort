@@ -374,7 +374,34 @@ export default function Index() {
           </div>
         </div>
       </section>
-
+      <section className="nextpagelink">
+        <div className="Overlay__Cards">
+          <div className="Overlay__Card__con">
+            <div className="overlay__img">
+              <div className="Overlay__Card__img">
+                <img src={nextpageimg} alt="overlaycard" />
+              </div>
+            </div>
+            <div className="overlay__heading">Hotel Apartment</div>
+          </div>
+          <div className="Overlay__Card__con">
+            <div className="overlay__img">
+              <div className="Overlay__Card__img">
+                <img src={nextpageimg} alt="overlaycard" />
+              </div>
+            </div>
+            <div className="overlay__heading">Hotel Apartment</div>
+          </div>
+          <div className="Overlay__Card__con">
+            <div className="overlay__img">
+              <div className="Overlay__Card__img">
+                <img src={nextpageimg} alt="overlaycard" />
+              </div>
+            </div>
+            <div className="overlay__heading">Hotel Apartment</div>
+          </div>
+        </div>
+      </section>
       <section className="aboutjseven">
         <div className="aboutjseven__left">
           <div className="aboutjseven__left__content">
