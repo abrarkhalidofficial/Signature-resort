@@ -130,8 +130,9 @@ body::-webkit-scrollbar-track {
   margin: 0 auto;
   max-width: 1920px;
   // margin: 10em 10em;
-  padding-top: 8em;
+
   overflow-x: hidden;
+  padding: 4em 0em;
 }
 .most__luxury__right {
   width: 50%;
@@ -151,7 +152,7 @@ body::-webkit-scrollbar-track {
 }
 .most__luxury__left img {
   width: 100%;
-  height: 700px;
+  height: 650px;
 }
 .most__luxury__right__main__heading span {
   color: #105a4e;
@@ -197,6 +198,8 @@ body::-webkit-scrollbar-track {
   margin: 0 auto;
   max-width: 1920px;
   overflow-x: hidden;
+  padding-bottom: 5em;
+  padding-top: 4em;
 }
 
 .our__best__luxury__card {
@@ -309,7 +312,8 @@ body::-webkit-scrollbar-track {
   margin: 0 auto;
   max-width: 1920px;
   overflow-x: hidden;
-  margin-top: 3em;
+  margin-top: 5em;
+  margin-bottom: 6em;
 }
 .ourproject__left {
   width: 35%;
@@ -368,13 +372,13 @@ body::-webkit-scrollbar-track {
   margin-top: 3em;
 }
 .locationpointer__left {
-  width: 50%;
+  width: 60%;
 }
 .locationpointer__left__img img {
   width: 100%;
 }
 .locationpointer__right {
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -410,10 +414,9 @@ body::-webkit-scrollbar-track {
 .locationfeatures {
   width: 100%;
   display: flex;
-
   margin: 0 auto;
   max-width: 1920px;
-  margin-top: 3em;
+  margin-top: 5em;
 }
 .locationfeatures__left {
   width: 50%;
@@ -490,7 +493,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   margin: 0 auto;
   max-width: 1920px;
-  margin-top: 3em;
+  margin-top: 6em;
+  margin-bottom: 7em;
 }
 .aboutjseven__left {
   width: 50%;
@@ -635,8 +639,8 @@ body::-webkit-scrollbar-track {
 }
 .footer__right input {
   width: 100%;
-  padding: 1.1em 5em;
-
+  padding: 1.1em 2em;
+  padding-right: 6em;
   font-family: "Montserrat", sans-serif;
   border: none;
   margin-bottom: 1em;
@@ -651,7 +655,6 @@ body::-webkit-scrollbar-track {
   background-color: #ebb93b;
   color: #fff;
   padding: 0.8em 1.8em;
-
   font-family: "Montserrat", sans-serif;
   border: none;
   cursor: pointer;
@@ -660,6 +663,10 @@ body::-webkit-scrollbar-track {
   right: 4px;
   top: 4px;
   border-radius: 30px;
+}
+.footer__right__button:hover {
+  background-color: #105a4e;
+  color: #fff;
 }
 .footer__bottom {
   width: 100%;
@@ -701,9 +708,18 @@ body::-webkit-scrollbar-track {
   color: #fff;
   margin-left: -3em;
 }
+.swiper-slide {
+  width: 400px !important;
+}
 @media (max-width: 1500px) {
   .homesection__right__button__svg {
     right: 130px;
+  }
+  .aboutjseven__left__img img {
+    width: 600px;
+  }
+  .locationfeatures__right__img img {
+    width: 600px;
   }
 }
 @media (max-width: 1450px) {
@@ -713,7 +729,7 @@ body::-webkit-scrollbar-track {
 }
 @media (max-width: 1400px) {
   .swiper-slide {
-    width: 360px !important;
+    // width: 280px !important;
   }
 }
 @media (max-width: 1350px) {
@@ -726,6 +742,7 @@ body::-webkit-scrollbar-track {
 
   .most__luxury__right {
     margin: 2em;
+    justify-content: center;
   }
   .most__luxury__left__img {
     display: flex;
@@ -821,6 +838,7 @@ body::-webkit-scrollbar-track {
   }
   .ourbest__right {
     width: 100%;
+    justify-content: center;
   }
   .locationfeatures {
     flex-direction: column;
@@ -833,6 +851,7 @@ body::-webkit-scrollbar-track {
   }
   .locationfeatures__right {
     width: 100%;
+    justify-content: center;
   }
   .aboutjseven {
     flex-direction: column;
@@ -845,6 +864,8 @@ body::-webkit-scrollbar-track {
   }
   .aboutjseven__right {
     width: 100%;
+    justify-content: center;
+    text-align: center;
   }
   .ourproject {
     flex-direction: column;
@@ -879,17 +900,17 @@ body::-webkit-scrollbar-track {
     flex-direction: column;
   }
   .locationpointer__left {
-    width: 85%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
   }
   .locationpointer__right {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2em;
+    padding: 3em 0em;
+  }
+  .locationpointer__swipe__img {
+    width: 250px !important;
+  }
+  .swiper__all {
+    width: 100%;
   }
   .most__luxury__right__main__heading {
     font-size: 40px;
@@ -1043,7 +1064,7 @@ body::-webkit-scrollbar-track {
     width: 70%;
   }
   .ourproject__swiper__img {
-    width: 150px;
+    width: 240px;
   }
   .locationfeatures__left {
     width: 100%;
@@ -1070,6 +1091,9 @@ body::-webkit-scrollbar-track {
     margin: 0em 1em;
     align-items: center;
     width: 100%;
+  }
+  .swiper-slide {
+    width: 300px !important;
   }
 }
 @media (max-width: 450px) {
@@ -1129,9 +1153,7 @@ body::-webkit-scrollbar-track {
   .footer__mid__links a {
     font-size: 16px;
   }
-  .ourproject__swiper__img {
-    width: 120px;
-  }
+
   .most__luxury__left img {
     width: 300px;
   }

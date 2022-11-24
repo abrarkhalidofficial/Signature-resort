@@ -1,7 +1,5 @@
-import { Head, Link } from "router";
 import {
   homesectionimg,
-  locationpointerimg,
   locationfeaturesimg,
   aboutjsevenimg,
   mostluxuryimg,
@@ -9,22 +7,14 @@ import {
   basedright,
   basedleft,
   swiperimg,
+  locctionswiperimg,
+  nextpageimg,
 } from "../assets/index.js";
 import React from "react";
-import { useLoaderData } from "react-router-dom";
-import { Navigation, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-
-export const loader = async () => {
-  return "";
-};
 
 export default function Index() {
-  const data = useLoaderData();
   return (
     <>
       <section className="homesection ">
@@ -268,8 +258,51 @@ export default function Index() {
       <section className="locationpointer">
         <div className="locationpointer__left">
           <div className="locationpointer__left__Content">
-            <div className="locationpointer__left__img">
-              <img src={locationpointerimg} alt="locationpointerimg" />
+            <div className="swiper__all">
+              <Swiper spaceBetween={5} slidesPerView={3}>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </div>
@@ -341,6 +374,7 @@ export default function Index() {
           </div>
         </div>
       </section>
+
       <section className="aboutjseven">
         <div className="aboutjseven__left">
           <div className="aboutjseven__left__content">
@@ -379,14 +413,7 @@ export default function Index() {
         </div>
         <div className="ourproject__right">
           <div>
-            <Swiper
-              modules={[Navigation, A11y]}
-              spaceBetween={50}
-              slidesPerView={3}
-              navigation
-              onSwiper={(swiper) => console.log(swiper)}
-              onSlideChange={() => console.log("slide change")}
-            >
+            <Swiper spaceBetween={5} slidesPerView={3}>
               <SwiperSlide>
                 <img
                   className="ourproject__swiper__img"
