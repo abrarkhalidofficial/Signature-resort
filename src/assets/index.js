@@ -12,4 +12,6 @@ export { default as basedleft } from "../assets/basedleft.png";
 export { default as swiperimg } from "../assets/swiperimg.png";
 export { default as signlogo } from "../assets/signlogo.png";
 export { default as locctionswiperimg } from "../assets/locctionswiperimg.png";
+export { default as locctionswiperimg1 } from "../assets/locctionswiperimg1.png";
+export { default as locctionswiperimg2 } from "../assets/locctionswiperimg2.png";
 export { default as nextpageimg } from "../assets/nextpageimg.png";

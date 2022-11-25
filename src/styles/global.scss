@@ -713,7 +713,7 @@ body::-webkit-scrollbar-track {
   margin-left: -3em;
 }
 .swiper-slide {
-  width: 400px !important;
+  width: 380px !important;
 } //// page  linkkk
 .nextpagelink {
   width: 100%;
@@ -743,6 +743,9 @@ body::-webkit-scrollbar-track {
   width: 50%;
   margin: 0.4em;
   position: relative;
+}
+.Overlay__Card__con:hover .overlay__heading {
+  color: #ebb93b;
 }
 .Overlay__Card__img {
   position: relative;

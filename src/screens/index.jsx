@@ -8,6 +8,8 @@ import {
   basedleft,
   swiperimg,
   locctionswiperimg,
+  locctionswiperimg1,
+  locctionswiperimg2,
   nextpageimg,
 } from "../assets/index.js";
 import React from "react";
@@ -17,7 +19,6 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 export default function Index() {
   return (
@@ -270,7 +271,6 @@ export default function Index() {
                 slidesPerView={3}
                 navigation
                 pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
               >
@@ -284,7 +284,14 @@ export default function Index() {
                 <SwiperSlide>
                   <img
                     className="locationpointer__swipe__img"
-                    src={locctionswiperimg}
+                    src={locctionswiperimg1}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg2}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
@@ -298,7 +305,14 @@ export default function Index() {
                 <SwiperSlide>
                   <img
                     className="locationpointer__swipe__img"
-                    src={locctionswiperimg}
+                    src={locctionswiperimg1}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg2}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
@@ -312,7 +326,14 @@ export default function Index() {
                 <SwiperSlide>
                   <img
                     className="locationpointer__swipe__img"
-                    src={locctionswiperimg}
+                    src={locctionswiperimg1}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg2}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
