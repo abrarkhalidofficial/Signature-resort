@@ -333,6 +333,7 @@ body::-webkit-scrollbar-track {
 }
 .ourproject__right {
   width: 65%;
+  cursor: pointer;
 }
 .most__luxury__right__image {
   width: 250px;
@@ -370,9 +371,11 @@ body::-webkit-scrollbar-track {
   margin: 0 auto;
   max-width: 1920px;
   margin-top: 3em;
+  padding: 5em 0em;
 }
 .locationpointer__left {
   width: 60%;
+  cursor: pointer;
 }
 .locationpointer__left__img img {
   width: 100%;
