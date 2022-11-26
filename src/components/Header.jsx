@@ -1,66 +1,149 @@
 import React from "react";
-import { Menu, X } from "react-feather";
-import { useNavigate } from "react-router-dom";
-import { signlogo } from "../assets/index.js";
-import { useLayoutEffect, useState } from "react";
-export default function Header() {
-  const [active, setActive] = useState(false);
-  const navigate = useNavigate();
-  useLayoutEffect(() => {
-    function navStatus() {
-      if (window.innerWidth < 1100) {
-        setActive(false);
-      } else {
-        setActive(true);
-      }
-    }
-    navStatus();
-    window.addEventListener("resize", navStatus);
-  }, []);
-  return (
-    <section id="home" className="oakland_section">
-      {/* <div className="oakland_section__weaper__overlay__navbar">
-        <div className="oakland_section__weaper__overlay__navbar__left">
-          <img
-            className="oakland_section__weaper__overlay__navbar__left__logo"
-            src={signlogo}
-            alt=""
-          />
-        </div>
+import { useState, useLayoutEffect } from "react";
+import ClickAwayListener from "react-click-away-listener";
+import { headerlogo } from "../assets/index.js";
+import { Menu } from "react-feather";
 
-        {active ? (
-          <div
-            navigate={navigate}
-            setActive={setActive}
-            className="oakland_section__weaper__overlay__navbar__right"
-          >
-            <a href="#home" className="navbar__style">
-              Home
-            </a>
-            <a href="#first__section__header" className="navbar__style">
-              About Us
-            </a>
-            <a href="#feature" className="navbar__style">
-              Features
-            </a>
-            <a href="#contact" className="navbar__style">
-              Contact Us
-            </a>
+export default function Header() {
+  const [isNavOpen, setIsNavOpen] = useState(true);
+  const [isScroll, setIsScroll] = useState(false);
+
+  function changeIsNavOpen() {
+    if (window.innerWidth <= 945) {
+      setIsNavOpen(false);
+    } else {
+      setIsNavOpen(true);
+    }
+  }
+
+  useLayoutEffect(() => {
+    changeIsNavOpen();
+    window.addEventListener("resize", changeIsNavOpen);
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setIsScroll(true);
+      } else {
+        setIsScroll(false);
+      }
+      changeIsNavOpen();
+    });
+  }, []);
+
+  return (
+    <div className="header__section">
+      <div
+        className={
+          isScroll
+            ? "header__navbar header__navbar__center__active"
+            : "header__navbar"
+        }
+      >
+        {/* <div className="header__navbar__left"></div> */}
+        <div className="header__navbar__center">
+          <div className="header__logo">
+            <img src={headerlogo} alt="logo" />
           </div>
-        ) : null}
-        <button
-          className="menu__btn"
-          onClick={() => {
-            setActive(!active);
-          }}
-        >
-          {active ? (
-            <X width={30} color="#b29c3f" />
-          ) : (
-            <Menu width={30} color="#b29c3f" />
-          )}
-        </button>
-      </div> */}
-    </section>
+          <div
+            className="header__menu"
+            onClick={() => {
+              setIsNavOpen(!isNavOpen);
+            }}
+          >
+            {isNavOpen ? <Y /> : <X />}
+          </div>
+          {isNavOpen ? (
+            <ClickAwayListener
+              onClickAway={() => {
+                if (window.innerWidth <= 945) {
+                  setIsNavOpen(false);
+                }
+              }}
+            >
+              <div className="header__entries">
+                <a href="#" className="header__entry">
+                  Home
+                </a>
+                <a href="#" className="header__entry">
+                  About Us
+                </a>
+                <a href="#" className="header__entry">
+                  Features
+                </a>
+                <a href="#" className="header__entry">
+                  Contact Us
+                </a>
+              </div>
+            </ClickAwayListener>
+          ) : null}
+        </div>
+        {/* <div className="header__navbar__right"></div> */}
+      </div>
+    </div>
+  );
+}
+function X() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="21"
+      viewBox="0 0 30 21"
+    >
+      <g
+        id="Icon_feather-menu"
+        data-name="Icon feather-menu"
+        transform="translate(-3 -7.5)"
+      >
+        <path
+          id="Path_21895"
+          data-name="Path 21895"
+          d="M4.5,18h27"
+          fill="none"
+          stroke="#bc993d"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="3"
+        />
+        <path
+          id="Path_21896"
+          data-name="Path 21896"
+          d="M4.5,9h27"
+          fill="none"
+          stroke="#bc993d"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="3"
+        />
+        <path
+          id="Path_21897"
+          data-name="Path 21897"
+          d="M4.5,27h27"
+          fill="none"
+          stroke="#bc993d"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="3"
+        />
+      </g>
+    </svg>
+  );
+}
+
+function Y() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="31.82"
+      height="31.82"
+      viewBox="0 0 31.82 31.82"
+    >
+      <path
+        id="Icon_ionic-md-add"
+        data-name="Icon ionic-md-add"
+        d="M29.25,19.5H19.5v9.75h-3V19.5H6.75v-3H16.5V6.75h3V16.5h9.75Z"
+        transform="translate(-9.546 15.91) rotate(-45)"
+        fill="#bc993d"
+      />
+    </svg>
   );
 }
