@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap");
 *,
 *::after,
 *::before {
@@ -13,7 +14,6 @@ body {
   padding: 0;
   font-size: 16px;
   overflow-x: hidden;
-  font-family: "Prata", serif;
 }
 body::-webkit-scrollbar {
   width: 12px;
@@ -55,11 +55,11 @@ body::-webkit-scrollbar-track {
   color: #fff;
   font-size: 45px;
   max-width: 500px;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 .homesection__left__heading span {
   color: #ebb93b;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 .homesection__left__info {
   color: #fffbfb;
@@ -157,10 +157,10 @@ body::-webkit-scrollbar-track {
 }
 .most__luxury__right__main__heading span {
   color: #105a4e;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 .most__luxury__right__main__heading {
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   font-size: 45px;
   color: #000000;
 }
@@ -297,13 +297,13 @@ body::-webkit-scrollbar-track {
 }
 .ourbest__left__heading {
   font-size: 45px;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   color: #000000;
   max-width: 450px;
 }
 .ourbest__left__heading span {
   color: #105a4e;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 .ourproject {
   display: flex;
@@ -325,12 +325,12 @@ body::-webkit-scrollbar-track {
 }
 .ourproject__left__heading {
   font-size: 45px;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   color: #105a4e;
 }
 .ourproject__left__heading span {
   color: #000000;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 .ourproject__right {
   width: 65%;
@@ -393,12 +393,12 @@ body::-webkit-scrollbar-track {
 .locationpointer__right__heading {
   color: #fff;
   font-size: 45px;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   margin-bottom: 0.8em;
 }
 .locationpointer__right__heading span {
   color: #ebb93b;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 
 .locationpointer__right__info a {
@@ -441,12 +441,12 @@ body::-webkit-scrollbar-track {
 }
 .locationfeatures__left__heading {
   font-size: 45px;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   margin-bottom: 0.8em;
 }
 .locationfeatures__left__heading span {
   color: #105a4e;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 .locationfeatures__left__info {
   color: #4d4c4c;
@@ -519,13 +519,13 @@ body::-webkit-scrollbar-track {
 }
 .aboutjseven__right__heading {
   font-size: 45px;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   margin-bottom: 0.8em;
   color: #105a4e;
 }
 .aboutjseven__right__heading span {
   color: #000000;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
 }
 .aboutjseven__right__info {
   color: #4d4c4c;
@@ -613,7 +613,7 @@ body::-webkit-scrollbar-track {
 }
 .footer__mid__heading {
   font-size: 20px;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   margin-bottom: 0.8em;
   color: #ebb93b;
 }
@@ -773,7 +773,7 @@ body::-webkit-scrollbar-track {
   font-size: 30px;
   color: #000000;
   font-weight: bold;
-  font-family: "Prata", serif;
+  font-family: "El Messiri", sans-serif;
   position: absolute;
   top: 50%;
   left: 30%;
