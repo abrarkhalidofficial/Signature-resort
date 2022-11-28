@@ -1549,6 +1549,14 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
+feather@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/feather/-/feather-0.0.6.tgz#248dcfd13d58efd991f829d1e373664539253c30"
+  integrity sha512-UUkqCgwgewmfcPGl6VJoZL4Kj2EzgGppSKmF1vwyeORhAoTgPoN2WhPYkih0/rlGrosPzKbdff8K1nK2g+lf9g==
+  dependencies:
+    moment "1.3.0"
+    utest "0.0.2"
+
 figures@^1.3.5:
   version "1.7.0"
   resolved "https://registry.npmjs.org/figures/-/figures-1.7.0.tgz"
@@ -2386,6 +2394,11 @@ mkdirp-classic@^0.5.2, mkdirp-classic@^0.5.3:
   resolved "https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz"
   integrity sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==
 
+moment@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-1.3.0.tgz#ec5f0a272753d87349726f51f411c14a90d4189d"
+  integrity sha512-sW6dc6TUzbX5tdN5eHBTUu6FuzSJz8wrP0temvkYQT7gnKg2ykDkXsQkECEQoEOlTtKCF+q+JOSh+BGYuCtpug==
+
 mozjpeg@^7.0.0:
   version "7.1.1"
   resolved "https://registry.npmjs.org/mozjpeg/-/mozjpeg-7.1.1.tgz"
@@ -2810,13 +2823,6 @@ react-fast-compare@^3.1.1:
   resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-feather@^2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-2.0.10.tgz#0e9abf05a66754f7b7bb71757ac4da7fb6be3b68"
-  integrity sha512-BLhukwJ+Z92Nmdcs+EMw6dy1Z/VLiJTzEQACDUEnWMClhYnFykJCGWQx+NmwP/qQHGX/5CzQ+TGi8ofg2+HzVQ==
-  dependencies:
-    prop-types "^15.7.2"
-
 react-helmet@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/react-helmet/-/react-helmet-6.1.0.tgz"
@@ -2859,7 +2865,7 @@ react-side-effect@^2.1.0:
 
 react@^18.2.0:
   version "18.2.0"
-  resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
@@ -3447,6 +3453,11 @@ url-to-options@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/url-to-options/-/url-to-options-1.0.1.tgz"
   integrity sha512-0kQLIzG4fdk/G5NONku64rSH/x32NOA39LVQqlK8Le6lvTF6GGRJpqaQFGgU+CLwySIqBSMdwYM0sYcW9f6P4A==
+
+utest@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/utest/-/utest-0.0.2.tgz#3862e2975309ea5de0940444a6c6ee0179726a16"
+  integrity sha512-Pnwb/qvydIBdIXf9VPrTtd1qfChKyBy7rFbdB7T538Tqk4MVP+QBmp0KHbkJUhI6D+wP5KEStxgQq1OgZfpARw==
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"

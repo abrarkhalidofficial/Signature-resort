@@ -1,13 +1,8 @@
 import React from "react";
-<<<<<<< HEAD
-
-export default function Header() {
-  return <div></div>;
-=======
 import { useState, useLayoutEffect } from "react";
 import ClickAwayListener from "react-click-away-listener";
 import { headerlogo } from "../assets/index.js";
-import { Menu } from "react-feather";
+// import { Menu } from "react-feather";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(true);
@@ -151,5 +146,4 @@ function Y() {
       />
     </svg>
   );
->>>>>>> 6613cdfd6525c6d8a4379ca1e4a4f0da2f3b0951
 }
