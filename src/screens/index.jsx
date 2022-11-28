@@ -23,7 +23,7 @@ import "swiper/css/pagination";
 export default function Index() {
   return (
     <>
-      <section className="homesection ">
+      <section className="homesection " id="home">
         <div className="homesection__left">
           <div className="homesection__left___content">
             <div className="homesection__left__heading">
@@ -369,7 +369,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="locationfeatures">
+      <section className="locationfeatures" id="features">
         <div className="locationfeatures__left">
           <div className="locationfeatures__left__content">
             <div className="locationfeatures__left__heading">
@@ -437,7 +437,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="aboutjseven">
+      <section className="aboutjseven" id="about">
         <div className="aboutjseven__left">
           <div className="aboutjseven__left__content">
             <div className="aboutjseven__left__img">
@@ -465,7 +465,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="ourproject">
+      <section className="ourproject" id="contact">
         <div className="ourproject__left">
           <div className="ourproject__left__content">
             <div className="ourproject__left__heading">

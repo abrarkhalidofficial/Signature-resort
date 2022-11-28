@@ -60,16 +60,16 @@ export default function Header() {
               }}
             >
               <div className="header__entries">
-                <a href="#" className="header__entry">
+                <a href="#home" className="header__entry">
                   Home
                 </a>
-                <a href="#" className="header__entry">
+                <a href="#about" className="header__entry">
                   About Us
                 </a>
-                <a href="#" className="header__entry">
+                <a href="#features" className="header__entry">
                   Features
                 </a>
-                <a href="#" className="header__entry">
+                <a href="#contact" className="header__entry">
                   Contact Us
                 </a>
               </div>

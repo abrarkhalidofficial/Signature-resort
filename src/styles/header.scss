@@ -151,17 +151,22 @@
     display: flex;
     align-items: center;
   }
+
+  .homesection__left__heading {
+    margin-top: 2em;
+  }
   .header__entries {
     display: flex;
     flex-direction: column;
     padding-top: 400px;
-    background-color: black;
+    background-color: #000;
     width: 100%;
     /* justify-content: center; */
     align-items: center;
     position: absolute;
     cursor: pointer;
     z-index: -1;
+    padding-bottom: 2em;
   }
   .header__entry {
     padding: 1.5em;
