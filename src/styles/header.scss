@@ -1,6 +1,6 @@
 :root {
   --yellow: #ebb93b;
-  --maxwidth1: 1520px;
+  --maxwidth1: 1460px;
   --maxwidth2: 1360px;
   --maxwidth3: 1300px;
   //   --maxwidth4: 1200px;
@@ -38,7 +38,8 @@
   flex-direction: row;
   max-width: 1920px;
   width: 100%;
-  position: fixed;
+  // position: fixed;
+  position: absolute;
   margin: 0px auto;
   z-index: 999;
   /* padding-top: 1em; */

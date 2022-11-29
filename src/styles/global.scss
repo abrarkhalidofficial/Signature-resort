@@ -17,6 +17,7 @@ body {
 }
 body::-webkit-scrollbar {
   width: 12px;
+  // display: none;
 }
 body::-webkit-scrollbar-thumb {
   background: -webkit-gradient(
@@ -35,17 +36,22 @@ body::-webkit-scrollbar-track {
 ////home
 .homesection {
   width: 100%;
-  display: flex;
+  display: block;
   margin: 0 auto;
   max-width: 1920px;
   background-color: #105a4e;
   padding-top: 4em;
   overflow-x: hidden;
 }
+.homesection__content {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .homesection__left {
   width: 50%;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +60,8 @@ body::-webkit-scrollbar-track {
 .homesection__left__heading {
   color: #fff;
   font-size: 45px;
-  max-width: 500px;
+  line-height: 50px;
+  max-width: 580px;
   font-family: "El Messiri", sans-serif;
 }
 .homesection__left__heading span {
@@ -63,7 +70,8 @@ body::-webkit-scrollbar-track {
 }
 .homesection__left__info {
   color: #fffbfb;
-
+  font-size: 18px;
+  line-height: 25px;
   font-family: "Montserrat", sans-serif;
   margin: 2em 0em;
 }
@@ -135,6 +143,14 @@ body::-webkit-scrollbar-track {
   overflow-x: hidden;
   padding: 4em 0em;
 }
+.most__luxury__content {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .most__luxury__right {
   width: 50%;
   display: flex;
@@ -143,18 +159,15 @@ body::-webkit-scrollbar-track {
 }
 
 .most__luxury__right__content {
-  max-width: 600px;
+  max-width: 750px;
 }
 .most__luxury__left {
   width: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.most__luxury__left img {
-  width: 100%;
-  height: 650px;
-}
+
 .most__luxury__right__main__heading span {
   color: #105a4e;
   font-family: "El Messiri", sans-serif;
@@ -162,13 +175,18 @@ body::-webkit-scrollbar-track {
 .most__luxury__right__main__heading {
   font-family: "El Messiri", sans-serif;
   font-size: 45px;
+  line-height: 50px;
   color: #000000;
+  max-width: 500px;
+  margin-top: 1em;
 }
 
 .most__luxury__right__info {
   font-family: "Montserrat", sans-serif;
   color: #105a4e;
   margin: 2em 0em;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .most__luxury__right__button {
@@ -201,6 +219,13 @@ body::-webkit-scrollbar-track {
   overflow-x: hidden;
   padding-bottom: 5em;
   padding-top: 4em;
+}
+.ourbest__content {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  display: flex;
 }
 
 .our__best__luxury__card {
@@ -316,6 +341,13 @@ body::-webkit-scrollbar-track {
   margin-top: 5em;
   margin-bottom: 6em;
 }
+.ourproject__content {
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+
+  display: flex;
+}
 .ourproject__left {
   width: 35%;
   display: flex;
@@ -391,6 +423,7 @@ body::-webkit-scrollbar-track {
 .locationpointer__right__info {
   display: grid;
 }
+
 .locationpointer__right__heading {
   color: #fff;
   font-size: 45px;
@@ -402,18 +435,19 @@ body::-webkit-scrollbar-track {
   font-family: "El Messiri", sans-serif;
 }
 
-.locationpointer__right__info a {
+.locationpointer__right__info__tag {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   margin: 0.7em 0em;
   font-size: 18px;
+  line-height: 25px;
   text-decoration: none;
 }
-.locationpointer__right__info a span {
+.locationpointer__right__info__tag span {
   color: #ebb93b;
   font-weight: bold;
 }
-.locationpointer__right__info a:hover {
+.locationpointer__right__info__tag:hover {
   color: #ebb93b;
 }
 .locationfeatures {
@@ -422,6 +456,12 @@ body::-webkit-scrollbar-track {
   margin: 0 auto;
   max-width: 1920px;
   margin-top: 5em;
+}
+.locationfeatures__content {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1460px;
 }
 .locationfeatures__left {
   width: 50%;
@@ -453,13 +493,14 @@ body::-webkit-scrollbar-track {
   color: #4d4c4c;
   font-family: "Montserrat", sans-serif;
   margin: 2em 0em;
+  line-height: 25px;
 }
 .locationfeatures__left__points {
   display: grid;
   margin-bottom: 2em;
 }
 
-.locationfeatures__left__points a {
+.locationfeatures__left__points__tags {
   font-family: "Montserrat", sans-serif;
   margin: 0.7em 0em;
   font-size: 18px;
@@ -468,7 +509,7 @@ body::-webkit-scrollbar-track {
   color: #000000;
   font-weight: 600;
 }
-.locationfeatures__left__points a:hover {
+.locationfeatures__left__points__tags:hover {
   color: #ebb93b;
 }
 .locationfeatures__left button {
@@ -486,12 +527,12 @@ body::-webkit-scrollbar-track {
   color: #fff;
 }
 .spanpoint {
-  color: #ebb93b;
   font-weight: bold;
   padding: 1px 10px;
-  margin-right: 0.6em;
   border-radius: 100px;
-  background-color: #ebb93b;
+  color: #ebb93b;
+  line-height: 0px;
+  font-size: 70px;
 }
 .aboutjseven {
   width: 100%;
@@ -500,6 +541,12 @@ body::-webkit-scrollbar-track {
   max-width: 1920px;
   margin-top: 6em;
   margin-bottom: 7em;
+}
+.aboutjseven__content {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1460px;
 }
 .aboutjseven__left {
   width: 50%;
@@ -511,7 +558,7 @@ body::-webkit-scrollbar-track {
   width: 50%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 
   margin: 0 auto;
 }
@@ -533,6 +580,7 @@ body::-webkit-scrollbar-track {
   font-family: "Montserrat", sans-serif;
   margin: 2em 0em;
   max-width: 600px;
+  line-height: 25px;
 }
 .aboutjseven__right__button {
   background-color: #ebb93b;
@@ -599,6 +647,8 @@ body::-webkit-scrollbar-track {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   margin: 2em 0em;
+  font-size: 18px;
+  line-height: 25px;
 }
 .footer__mid {
   width: 20%;
@@ -680,6 +730,7 @@ body::-webkit-scrollbar-track {
   max-width: 1920px;
   margin: 0 auto;
 }
+
 .footer__bottom__content {
   width: 80%;
   display: flex;
@@ -702,8 +753,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
   height: 2px;
-  width: 90% !important;
-  width: 1440px;
+  width: 85% !important;
+  width: 1200px;
   margin: 0 auto;
   background-color: #c4c4c4;
 }
@@ -742,12 +793,12 @@ body::-webkit-scrollbar-track {
 }
 .Overlay__Card__con {
   width: 50%;
-  margin: 0.4em;
+
   position: relative;
 }
-.Overlay__Card__con:hover .overlay__heading {
-  color: #ebb93b;
-}
+// .Overlay__Card__con:hover .overlay__heading {
+//   color: #ebb93b;
+// }
 .Overlay__Card__img {
   position: relative;
   z-index: -999;
@@ -795,9 +846,26 @@ body::-webkit-scrollbar-track {
   .most__luxury__right {
     margin: 2em;
   }
+  .homesection__left,
+  .most__luxury__left,
+  .ourbest__left,
+  .aboutjseven__left,
+  .most__luxury__left,
+  .locationfeatures__left {
+    margin-left: 2em;
+  }
+  .homesection__left__heading,
+  .most__luxury__right__main__heading,
+  .ourbest__left__heading,
+  .locationpointer__right__heading,
+  .locationfeatures__left__heading,
+  .aboutjseven__right__heading,
+  .ourproject__left__heading {
+    font-size: 35px;
+  }
 }
 
-@media (max-width: 1350px) {
+@media (max-wsidth: 1350px) {
   .ourproject__swiper__img {
     width: 100%;
     max-height: 500px;
@@ -809,10 +877,14 @@ body::-webkit-scrollbar-track {
     margin: 2em;
     justify-content: center;
   }
+
   .most__luxury__left__img {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .mostluxryimg {
+    width: 80%;
   }
   .most__luxury__right__pics {
     display: flex;
@@ -897,6 +969,9 @@ body::-webkit-scrollbar-track {
     align-items: center;
     justify-content: center;
   }
+  .most__luxury__left {
+    justify-content: center;
+  }
   .ourbest__left {
     width: 100%;
     margin-bottom: 2em;
@@ -912,6 +987,7 @@ body::-webkit-scrollbar-track {
   }
   .locationfeatures__left {
     width: 100%;
+    margin: 0 auto;
     margin-bottom: 2em;
   }
   .locationfeatures__right {
@@ -953,6 +1029,45 @@ body::-webkit-scrollbar-track {
     width: 90% !important;
     margin-bottom: 2em;
   }
+  .homesection__content {
+    flex-direction: column;
+  }
+  .homesection__left {
+    width: 100%;
+
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding-top: 4em;
+  }
+  .homesection__right {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .most__luxury__content,
+  .ourbest__content,
+  .locationpointer,
+  .locationfeatures__content,
+  .aboutjseven__content,
+  .ourproject__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .most__luxury__right__main__heading {
+    text-align: center;
+  }
+  .most__luxury__left,
+  .most__luxury__right,
+  .ourbest__left,
+  .ourbest__right,
+  .aboutjseven__left {
+    width: 100%;
+    margin-bottom: 2em;
+    margin-left: 0em;
+  }
+  .most__luxury {
+    padding: 2em 0em;
+  }
 }
 @media (max-width: 950px) {
   .homesection {
@@ -991,6 +1106,7 @@ body::-webkit-scrollbar-track {
   }
   .most__luxury__right__info {
     text-align: center;
+    line-height: 25px;
   }
   .most__luxury__right__button {
     width: 100%;
@@ -1012,6 +1128,7 @@ body::-webkit-scrollbar-track {
     width: 85%;
     margin: 0 auto;
     padding: 2em 0em;
+    line-height: 25px;
   }
 }
 @media (max-width: 600px) {
@@ -1045,12 +1162,20 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 550px) {
-  .homesection__left__heading {
+  .most__luxury__right {
+    margin: 0em;
+  }
+  .homesection__left__heading,
+  .most__luxury__right__main__heading {
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
+    line-height: 35px;
   }
   .homesection__left__info {
     text-align: center;
+    font-size: 16px;
+    margin: 1em 0em;
+    line-height: 25px;
   }
   .homesection__left__button {
     margin: 0em 2em;
@@ -1082,6 +1207,7 @@ body::-webkit-scrollbar-track {
   }
   .locationfeatures__left__info {
     text-align: center;
+    line-height: 25px;
   }
   .aboutjseven__right__heading {
     text-align: center;
@@ -1090,6 +1216,7 @@ body::-webkit-scrollbar-track {
   }
   .aboutjseven__right__info {
     text-align: center;
+    line-height: 25px;
   }
   .aboutjseven__right__button {
     margin: 0em 2em;
@@ -1128,7 +1255,8 @@ body::-webkit-scrollbar-track {
   .locationfeatures__right__img img {
     width: 350px;
   }
-  .aboutjseven__left__img img {
+  .aboutjseven__left__img img,
+  .ourbest__right__img img {
     width: 350px;
   }
   .most__luxury__left img {
@@ -1138,8 +1266,17 @@ body::-webkit-scrollbar-track {
   .aboutjseven__right__content {
     margin: 0em 1em;
   }
+  .footer__mid__heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
   .footer__mid__content {
-    width: 70%;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__mid__links {
+    margin-bottom: 2em;
   }
   .ourproject__swiper__img {
     width: 240px;
@@ -1174,17 +1311,56 @@ body::-webkit-scrollbar-track {
     width: 300px !important;
   }
   .overlay__heading {
-    left: 20% !important;
+    left: 23% !important;
   }
-}
-@media (max-width: 450px) {
   .homesection__right__img img {
-    height: 470px;
+    height: 350px;
     margin: 0em 1em;
   }
   .homesection__right__button__svg {
-    right: 43px;
-    top: 360px;
+    top: 260px;
+    right: 76px;
+  }
+  .homesection__right__img {
+    margin-right: -2em;
+  }
+  .homesection__left__heading,
+  .homesection__left__info,
+  .most__luxury__right__main__heading,
+  .most__luxury__right__info {
+    max-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+  .ourbest {
+    padding-bottom: 0em;
+  }
+  .footer__right {
+    padding-top: 0em;
+  }
+  .locationpointer {
+    padding: 3em 0em;
+  }
+  .most__luxury__right__info {
+    padding: 0em 0em;
+    padding-bottom: 1em;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .most__luxury__right {
+    justify-content: center;
+  }
+  .homesection__left__button {
+    margin-top: 1em;
+  }
+  .homesection__left {
+    padding-top: 1em;
+  }
+}
+@media (max-width: 450px) {
+  .homesection__right__button__svg {
+    right: 60px;
+    top: 250px;
   }
   .ourbest__right__img {
     width: 400px;
@@ -1225,8 +1401,9 @@ body::-webkit-scrollbar-track {
   .locationpointer__right {
     margin: 0em 1em;
   }
-  .locationpointer__right__info a {
+  .locationpointer__right__info__tag {
     font-size: 16px;
+    line-height: 25px;
   }
   .footer__mid__heading {
     font-size: 18px;
