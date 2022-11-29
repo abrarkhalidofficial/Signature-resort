@@ -386,6 +386,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 500px;
 }
 .locationpointer__right__info {
   display: grid;
