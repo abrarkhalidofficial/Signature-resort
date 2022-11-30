@@ -15,37 +15,65 @@ import {
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
+import AOS from "aos";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function Index() {
+  AOS.init();
   return (
     <>
       <section className="homesection " id="home">
         <div className="homesection__content">
           <div className="homesection__left">
             <div className="homesection__left___content">
-              <div className="homesection__left__heading">
+              <div
+                className="homesection__left__heading"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 <span> Most luxury </span> resorts for more discering Customers
               </div>
-              <div className="homesection__left__info">
+              <div
+                className="homesection__left__info"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1500"
+              >
                 Dream Home is a gated community with a great location. Located
                 downtown, you’re within walking distance of Parks, and the best
                 shopping, dining and entertainment Getting around is a breeze,
                 with easy access to freeways, buses and trolleys. . Laundry is
                 available on premises.
               </div>
-              <button className="homesection__left__button">Lead form</button>
+              <button
+                className="homesection__left__button"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1600"
+              >
+                Lead form
+              </button>
             </div>
           </div>
           <div className="homesection__right">
             <div className="homesection__right__content">
-              <div className="homesection__right__img">
+              <div
+                className="homesection__right__img"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1100"
+              >
                 <img src={homesectionimg} alt="homesectionimg" />
               </div>
-              <div className="homesection__right__button__svg">
+              <div
+                className="homesection__right__button__svg"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1200"
+              >
                 <button className="homesection__right__button">
                   Layout plan
                 </button>
@@ -72,7 +100,12 @@ export default function Index() {
       <section className="most__luxury">
         <div className="most__luxury__content">
           <div className="most__luxury__left">
-            <div className="most__luxury__left__img">
+            <div
+              className="most__luxury__left__img"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               <img
                 className="mostluxryimg"
                 src={mostluxuryimg}
@@ -82,10 +115,20 @@ export default function Index() {
           </div>
           <div className="most__luxury__right">
             <div className="most__luxury__right__content">
-              <div className="most__luxury__right__main__heading">
+              <div
+                className="most__luxury__right__main__heading"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 <span>Most luxury </span> resorts for more discering
               </div>
-              <div className="most__luxury__right__info">
+              <div
+                className="most__luxury__right__info"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
                 Dream Home is a gated community with a great location. Located
                 downtown, you’re within walking distance of Parks, and the best
                 shopping, dining and entertainment Getting around is a breeze,
@@ -96,8 +139,20 @@ export default function Index() {
                 Getting around is a breeze, with easy access to freeways, buses
                 and trolleys. . Laundry is available on premises.
               </div>
-              <button className="most__luxury__right__button">Read More</button>
-              <div className="most__luxury__right__pics">
+              <button
+                className="most__luxury__right__button"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
+                Read More
+              </button>
+              <div
+                className="most__luxury__right__pics"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1500"
+              >
                 <div className="most__luxury__right__picture">
                   <img
                     className="most__luxury__right__image"
@@ -121,15 +176,30 @@ export default function Index() {
         <div className="ourbest__content">
           <div className="ourbest__left">
             <div className="ourbest__left__content">
-              <div className="ourbest__left__text">
+              <div
+                className="ourbest__left__text"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 Our best luxury features
               </div>
-              <div className="ourbest__left__heading">
+              <div
+                className="ourbest__left__heading"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 <span>Pakistan first</span> theme based resort
               </div>
 
               <div className="our__best__luxury__card__card_main">
-                <div className="our__best__luxury__card">
+                <div
+                  className="our__best__luxury__card"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
@@ -147,7 +217,12 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <div className="our__best__luxury__card">
+                <div
+                  className="our__best__luxury__card"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
@@ -165,7 +240,12 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <div className="our__best__luxury__card">
+                <div
+                  className="our__best__luxury__card"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
@@ -258,7 +338,12 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <div className="ourbest__right">
+          <div
+            className="ourbest__right"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div className="ourbest__right__content">
               <img
                 className="ourbest__right__img"
@@ -272,7 +357,12 @@ export default function Index() {
       <section className="locationpointer">
         <div className="locationpointer__left">
           <div className="locationpointer__left__Content">
-            <div className="swiper__all">
+            <div
+              className="swiper__all"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={5}
@@ -351,26 +441,67 @@ export default function Index() {
         </div>
         <div className="locationpointer__right">
           <div className="locationpointer__right__content">
-            <div className="locationpointer__right__heading">
+            <div
+              className="locationpointer__right__heading"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               <span> Location </span> pointer
             </div>
             <div className="locationpointer__right__info">
-              <div className="locationpointer__right__info__tag" href="#">
+              <div
+                className="locationpointer__right__info__tag"
+                href="#"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 <span>1.</span> Tourism highway 0 km
               </div>
-              <div className="locationpointer__right__info__tag" href="#">
+              <div
+                className="locationpointer__right__info__tag"
+                href="#"
+                data-aos="fade-up"
+                data-aos-delay="55"
+                data-aos-duration="1200"
+              >
                 <span>2.</span> Patriata Chairlift just 1.5 km away
               </div>
-              <div className="locationpointer__right__info__tag" href="#">
+              <div
+                className="locationpointer__right__info__tag"
+                href="#"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
                 <span>3.</span> Gloria Jean located at just 7 km
               </div>
-              <div className="locationpointer__right__info__tag" href="#">
+              <div
+                className="locationpointer__right__info__tag"
+                href="#"
+                data-aos="fade-up"
+                data-aos-delay="65"
+                data-aos-duration="1400"
+              >
                 <span>4.</span> Murree Express way just at 7 km
               </div>
-              <div className="locationpointer__right__info__tag" href="#">
+              <div
+                className="locationpointer__right__info__tag"
+                href="#"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
                 <span>5.</span> McDonald’s Murree 8 km
               </div>
-              <div className="locationpointer__right__info__tag" href="#">
+              <div
+                className="locationpointer__right__info__tag"
+                href="#"
+                data-aos="fade-up"
+                data-aos-delay="75"
+                data-aos-duration="1600"
+              >
                 <span>6.</span> Mall Road 12 km
               </div>
             </div>
@@ -381,10 +512,20 @@ export default function Index() {
         <div className="locationfeatures__content">
           <div className="locationfeatures__left">
             <div className="locationfeatures__left__content">
-              <div className="locationfeatures__left__heading">
+              <div
+                className="locationfeatures__left__heading"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 <span> Location </span> features
               </div>
-              <div className="locationfeatures__left__info">
+              <div
+                className="locationfeatures__left__info"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
                 Dream Home is a gated community with a great location. Located
                 downtown, you’re within walking distance of Parks, and the best
                 shopping, dining and entertainment Getting around is a breeze,
@@ -392,25 +533,53 @@ export default function Index() {
                 available on premises.
               </div>
               <div className="locationfeatures__left__points">
-                <div href="#" className="locationfeatures__left__points__tags">
+                <div
+                  href="#"
+                  className="locationfeatures__left__points__tags"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1100"
+                >
                   <span className="spanpoint">.</span> Located just in front of
                   tourism highway.
                 </div>
-                <div href="#" className="locationfeatures__left__points__tags">
+                <div
+                  href="#"
+                  className="locationfeatures__left__points__tags"
+                  data-aos="fade-up"
+                  data-aos-delay="55"
+                  data-aos-duration="1200"
+                >
                   <span className="spanpoint">.</span> Located just in front of
                   tourism highway.
                 </div>
-                <div href="#" className="locationfeatures__left__points__tags">
+                <div
+                  href="#"
+                  className="locationfeatures__left__points__tags"
+                  data-aos="fade-up"
+                  data-aos-delay="60"
+                  data-aos-duration="1300"
+                >
                   <span className="spanpoint">.</span> Located just in front of
                   tourism highway.
                 </div>
               </div>
-              <button className="locationfeatures__left__button">
+              <button
+                className="locationfeatures__left__button"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
                 Read More
               </button>
             </div>
           </div>
-          <div className="locationfeatures__right">
+          <div
+            className="locationfeatures__right"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div className="locationfeatures__right__content">
               <div className="locationfeatures__right__img">
                 <img src={locationfeaturesimg} alt="locationfeaturesimg" />
@@ -421,7 +590,12 @@ export default function Index() {
       </section>
       <section className="nextpagelink">
         <div className="Overlay__Cards">
-          <div className="Overlay__Card__con">
+          <div
+            className="Overlay__Card__con"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div className="overlay__img">
               <div className="Overlay__Card__img">
                 <img src={nextpageimg} alt="overlaycard" />
@@ -429,7 +603,12 @@ export default function Index() {
             </div>
             <div className="overlay__heading">Hotel Apartment</div>
           </div>
-          <div className="Overlay__Card__con">
+          <div
+            className="Overlay__Card__con"
+            data-aos="fade-up"
+            data-aos-delay="60"
+            data-aos-duration="1300"
+          >
             <div className="overlay__img">
               <div className="Overlay__Card__img">
                 <img src={nextpageimg} alt="overlaycard" />
@@ -437,7 +616,12 @@ export default function Index() {
             </div>
             <div className="overlay__heading">Hotel Apartment</div>
           </div>
-          <div className="Overlay__Card__con">
+          <div
+            className="Overlay__Card__con"
+            data-aos="fade-up"
+            data-aos-delay="70"
+            data-aos-duration="1500"
+          >
             <div className="overlay__img">
               <div className="Overlay__Card__img">
                 <img src={nextpageimg} alt="overlaycard" />
@@ -449,7 +633,12 @@ export default function Index() {
       </section>
       <section className="aboutjseven" id="about">
         <div className="aboutjseven__content">
-          <div className="aboutjseven__left">
+          <div
+            className="aboutjseven__left"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div className="aboutjseven__left__content">
               <div className="aboutjseven__left__img">
                 <img src={aboutjsevenimg} alt="aboutjsevenimg" />
@@ -458,10 +647,20 @@ export default function Index() {
           </div>
           <div className="aboutjseven__right">
             <div className="aboutjseven__right__content">
-              <div className="aboutjseven__right__heading">
+              <div
+                className="aboutjseven__right__heading"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1200"
+              >
                 <span> About </span> J7
               </div>
-              <div className="aboutjseven__right__info">
+              <div
+                className="aboutjseven__right__info"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1200"
+              >
                 Dream Home is a gated community with a great location. Located
                 downtown, you’re within walking distance of Parks, and the best
                 shopping, dining and entertainment Getting around is a breeze,
@@ -472,7 +671,14 @@ export default function Index() {
                 Getting around is a breeze, with easy access to freeways, buses
                 and trolleys. . Laundry is available on premises.
               </div>
-              <button className="aboutjseven__right__button">Read More</button>
+              <button
+                className="aboutjseven__right__button"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1200"
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>
