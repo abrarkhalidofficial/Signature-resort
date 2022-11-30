@@ -845,6 +845,15 @@ body::-webkit-scrollbar-track {
 .Overlay__Card__con:hover .overlay__heading {
   color: #ebb93b;
 }
+.locationpointer__swipe__img,
+.ourproject__swiper__img {
+  margin-bottom: 3em;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 10px);
+}
 @media (max-width: 1500px) {
   .homesection__right__button__svg {
     right: 130px;
