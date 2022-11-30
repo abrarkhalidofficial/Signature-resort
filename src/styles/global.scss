@@ -634,7 +634,12 @@ body::-webkit-scrollbar-track {
   background-color: #105a4e;
   padding: 3em 0em;
 }
-
+.footer__content {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1600px;
+}
 .footer__left {
   width: 40%;
   display: flex;
@@ -730,6 +735,10 @@ body::-webkit-scrollbar-track {
   max-width: 1920px;
   margin: 0 auto;
 }
+.footer__bottom__content__all {
+  margin: 0 auto;
+  max-width: 1650px;
+}
 
 .footer__bottom__content {
   width: 80%;
@@ -823,14 +832,19 @@ body::-webkit-scrollbar-track {
 
 .overlay__heading {
   font-size: 30px;
-  color: #000000;
+  // color: ;
   font-weight: bold;
   font-family: "El Messiri", sans-serif;
   position: absolute;
   top: 50%;
   left: 30%;
 }
-
+.overlay__heading:hover {
+  color: #ebb93b;
+}
+.Overlay__Card__con:hover .overlay__heading {
+  color: #ebb93b;
+}
 @media (max-width: 1500px) {
   .homesection__right__button__svg {
     right: 130px;
@@ -854,6 +868,7 @@ body::-webkit-scrollbar-track {
   .locationfeatures__left {
     margin-left: 2em;
   }
+
   .homesection__left__heading,
   .most__luxury__right__main__heading,
   .ourbest__left__heading,
@@ -933,7 +948,7 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1200px) {
-  .footer {
+  .footer__content {
     flex-direction: column;
   }
   .footer__left {
@@ -1057,13 +1072,17 @@ body::-webkit-scrollbar-track {
     text-align: center;
   }
   .most__luxury__left,
-  .most__luxury__right,
   .ourbest__left,
   .ourbest__right,
   .aboutjseven__left {
     width: 100%;
     margin-bottom: 2em;
     margin-left: 0em;
+  }
+  .most__luxury__right {
+    align-items: center;
+    text-align: center;
+    width: 70%;
   }
   .most__luxury {
     padding: 2em 0em;
@@ -1418,7 +1437,7 @@ body::-webkit-scrollbar-track {
 }
 @media (max-width: 380px) {
   .overlay__heading {
-    left: 20% !important;
+    left: 25% !important;
     font-size: 22px;
   }
 }
