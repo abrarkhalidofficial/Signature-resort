@@ -4,12 +4,7 @@ import { footerlogo, footerrightimg } from "../assets/index.js";
 export default function Footer() {
   return (
     <>
-      <section
-        className="footer"
-        data-aos="fade-up"
-        data-aos-delay="50"
-        data-aos-duration="1200"
-      >
+      <section className="footer">
         <div className="footer__content">
           <div className="footer__left">
             <div className="footer__left__content">

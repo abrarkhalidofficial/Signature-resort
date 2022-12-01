@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+import React from "react";
 import {
   homesectionimg,
   locationfeaturesimg,
@@ -12,7 +14,6 @@ import {
   locctionswiperimg2,
   nextpageimg,
 } from "../assets/index.js";
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import AOS from "aos";
@@ -48,14 +49,15 @@ export default function Index() {
                 with easy access to freeways, buses and trolleys. . Laundry is
                 available on premises.
               </div>
-              <button
+              <div
                 className="homesection__left__button"
                 data-aos="fade-up"
                 data-aos-delay="70"
                 data-aos-duration="1600"
+                to="/suitsfeatures"
               >
                 Lead form
-              </button>
+              </div>
             </div>
           </div>
           <div className="homesection__right">
@@ -597,37 +599,43 @@ export default function Index() {
             data-aos-duration="1000"
           >
             <div className="overlay__img">
-              <div className="Overlay__Card__img">
-                <img src={nextpageimg} alt="overlaycard" />
-              </div>
+              <NavLink to="/suitsfeatures">
+                <div href="suitsfeatures" className="Overlay__Card__img">
+                  <img src={nextpageimg} alt="overlaycard" />
+                </div>
+              </NavLink>
+              <div className="overlay__heading">Hotel Apartment</div>
             </div>
-            <div className="overlay__heading">Hotel Apartment</div>
           </div>
           <div
             className="Overlay__Card__con"
             data-aos="fade-up"
-            data-aos-delay="60"
-            data-aos-duration="1300"
+            data-aos-delay="50"
+            data-aos-duration="1000"
           >
             <div className="overlay__img">
-              <div className="Overlay__Card__img">
-                <img src={nextpageimg} alt="overlaycard" />
-              </div>
+              <NavLink to="/suitsfeatures">
+                <div href="suitsfeatures" className="Overlay__Card__img">
+                  <img src={nextpageimg} alt="overlaycard" />
+                </div>
+              </NavLink>
+              <div className="overlay__heading">Hotel Apartment</div>
             </div>
-            <div className="overlay__heading">Hotel Apartment</div>
           </div>
           <div
             className="Overlay__Card__con"
             data-aos="fade-up"
-            data-aos-delay="70"
-            data-aos-duration="1500"
+            data-aos-delay="50"
+            data-aos-duration="1000"
           >
             <div className="overlay__img">
-              <div className="Overlay__Card__img">
-                <img src={nextpageimg} alt="overlaycard" />
-              </div>
+              <NavLink to="/suitsfeatures">
+                <div href="suitsfeatures" className="Overlay__Card__img">
+                  <img src={nextpageimg} alt="overlaycard" />
+                </div>
+              </NavLink>
+              <div className="overlay__heading">Hotel Apartment</div>
             </div>
-            <div className="overlay__heading">Hotel Apartment</div>
           </div>
         </div>
       </section>

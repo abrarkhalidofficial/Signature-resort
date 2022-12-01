@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useLayoutEffect } from "react";
 import ClickAwayListener from "react-click-away-listener";
+import { NavLink } from "react-router-dom";
 import { headerlogo } from "../assets/index.js";
 // import { Menu } from "react-feather";
 
@@ -40,9 +41,9 @@ export default function Header() {
       >
         {/* <div className="header__navbar__left"></div> */}
         <div className="header__navbar__center">
-          <div className="header__logo">
+          <NavLink to="/" className="header__logo">
             <img src={headerlogo} alt="logo" />
-          </div>
+          </NavLink>
           <div
             className="header__menu"
             onClick={() => {

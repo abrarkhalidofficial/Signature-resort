@@ -16,3 +16,5 @@ export { default as locctionswiperimg1 } from "../assets/locctionswiperimg1.png"
 export { default as locctionswiperimg2 } from "../assets/locctionswiperimg2.png";
 export { default as nextpageimg } from "../assets/nextpageimg.png";
 export { default as headerlogo } from "../assets/headerlogo.png";
+export { default as suitsfeaturesimg } from "../assets/suitsfeaturesimg.png";
+export { default as suitsfeaturesbedimg } from "../assets/suitsfeaturesbedimg.png";
