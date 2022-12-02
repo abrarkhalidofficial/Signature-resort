@@ -49,7 +49,7 @@ export default function Index() {
                 with easy access to freeways, buses and trolleys. . Laundry is
                 available on premises.
               </div>
-              <div
+              <button
                 className="homesection__left__button"
                 data-aos="fade-up"
                 data-aos-delay="70"
@@ -57,7 +57,7 @@ export default function Index() {
                 to="/suitsfeatures"
               >
                 Lead form
-              </div>
+              </button>
             </div>
           </div>
           <div className="homesection__right">
