@@ -776,6 +776,41 @@ export default function Index() {
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="ourproject__swiper__img"
+                    src={swiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="ourproject__swiper__img"
+                    src={swiperimg2}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="ourproject__swiper__img"
+                    src={swiperimg3}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="ourproject__swiper__img"
+                    src={swiperimg4}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="ourproject__swiper__img"
+                    src={swiperimg5}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
