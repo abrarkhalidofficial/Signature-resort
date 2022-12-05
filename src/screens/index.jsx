@@ -6,6 +6,7 @@ import {
   aboutjsevenimg,
   mostluxuryimg,
   mostluxuryright,
+  mostluxuryright1,
   basedright,
   basedleft,
   swiperimg,
@@ -21,6 +22,8 @@ import {
   locctionswiperimg4,
   locctionswiperimg5,
   nextpageimg,
+  nextpageimg1,
+  nextpageimg2,
 } from "../assets/index.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
@@ -166,7 +169,7 @@ export default function Index() {
                 <div className="most__luxury__right__picture">
                   <img
                     className="most__luxury__right__image"
-                    src={mostluxuryright}
+                    src={mostluxuryright1}
                     alt="mostluxuryright"
                   />
                 </div>
@@ -633,7 +636,7 @@ export default function Index() {
                   <img src={nextpageimg} alt="overlaycard" />
                 </div>
               </NavLink>
-              <div className="overlay__heading">Hotel Apartment</div>
+              <div className="overlay__heading">Signature villa</div>
             </div>
           </div>
           <div
@@ -645,10 +648,10 @@ export default function Index() {
             <div className="overlay__img">
               <NavLink to="/suitsfeatures">
                 <div href="suitsfeatures" className="Overlay__Card__img">
-                  <img src={nextpageimg} alt="overlaycard" />
+                  <img src={nextpageimg1} alt="overlaycard" />
                 </div>
               </NavLink>
-              <div className="overlay__heading">Hotel Apartment</div>
+              <div className="overlay__heading">Hotel suite</div>
             </div>
           </div>
           <div
@@ -660,7 +663,7 @@ export default function Index() {
             <div className="overlay__img">
               <NavLink to="/suitsfeatures">
                 <div href="suitsfeatures" className="Overlay__Card__img">
-                  <img src={nextpageimg} alt="overlaycard" />
+                  <img src={nextpageimg2} alt="overlaycard" />
                 </div>
               </NavLink>
               <div className="overlay__heading">Hotel Apartment</div>

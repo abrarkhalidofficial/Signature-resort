@@ -2,6 +2,7 @@ export { default as react } from "./react.svg";
 export { default as homesectionimg } from "../assets/homesectionimg.png";
 export { default as mostluxuryimg } from "../assets/mostluxuryimg.png";
 export { default as mostluxuryright } from "../assets/mostluxuryright.png";
+export { default as mostluxuryright1 } from "../assets/mostluxuryright1.png";
 export { default as locationpointerimg } from "../assets/locationpointerimg.png";
 export { default as locationfeaturesimg } from "../assets/locationfeaturesimg.png";
 export { default as aboutjsevenimg } from "../assets/aboutjsevenimg.png";
@@ -23,6 +24,8 @@ export { default as locctionswiperimg3 } from "../assets/locctionswiperimg3.png"
 export { default as locctionswiperimg4 } from "../assets/locctionswiperimg4.png";
 export { default as locctionswiperimg5 } from "../assets/locctionswiperimg5.png";
 export { default as nextpageimg } from "../assets/nextpageimg.png";
+export { default as nextpageimg1 } from "../assets/nextpageimg1.png";
+export { default as nextpageimg2 } from "../assets/nextpageimg2.png";
 export { default as headerlogo } from "../assets/headerlogo.png";
 export { default as suitsfeaturesimg } from "../assets/suitsfeaturesimg.png";
 export { default as suitsfeaturesbedimg } from "../assets/suitsfeaturesbedimg.png";
