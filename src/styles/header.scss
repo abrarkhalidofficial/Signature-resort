@@ -13,7 +13,7 @@
 *::before {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif;
+  font-family: "El Messiri", sans-serif;
 }
 
 .header__section {
@@ -86,12 +86,13 @@
   text-decoration: none;
   padding: 2.5em;
   color: white;
+  font-size: 16px;
   //   border-radius: 0 0 55px 0;
   font-weight: 500;
 }
 .header__entry:hover {
   text-decoration: underline;
-  color: #bc993d;
+  color: #ebb93b;
 }
 .header__navbar__right {
   /* background-color: aqua; */
