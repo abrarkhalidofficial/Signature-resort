@@ -751,6 +751,13 @@ export default function Index() {
                 <SwiperSlide>
                   <img
                     className="ourproject__swiper__img"
+                    src={swiperimg1}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="ourproject__swiper__img"
                     src={swiperimg2}
                     alt=" swiperimg"
                   />
@@ -780,6 +787,13 @@ export default function Index() {
                   <img
                     className="ourproject__swiper__img"
                     src={swiperimg}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="ourproject__swiper__img"
+                    src={swiperimg1}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
