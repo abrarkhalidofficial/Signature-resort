@@ -9,9 +9,17 @@ import {
   basedright,
   basedleft,
   swiperimg,
+  swiperimg1,
+  swiperimg2,
+  swiperimg3,
+  swiperimg4,
+  swiperimg5,
   locctionswiperimg,
   locctionswiperimg1,
   locctionswiperimg2,
+  locctionswiperimg3,
+  locctionswiperimg4,
+  locctionswiperimg5,
   nextpageimg,
 } from "../assets/index.js";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -398,6 +406,27 @@ export default function Index() {
                 <SwiperSlide>
                   <img
                     className="locationpointer__swipe__img"
+                    src={locctionswiperimg3}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg4}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
+                    src={locctionswiperimg5}
+                    alt=" swiperimg"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    className="locationpointer__swipe__img"
                     src={locctionswiperimg}
                     alt=" swiperimg"
                   />
@@ -419,21 +448,21 @@ export default function Index() {
                 <SwiperSlide>
                   <img
                     className="locationpointer__swipe__img"
-                    src={locctionswiperimg}
+                    src={locctionswiperimg3}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="locationpointer__swipe__img"
-                    src={locctionswiperimg1}
+                    src={locctionswiperimg4}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="locationpointer__swipe__img"
-                    src={locctionswiperimg2}
+                    src={locctionswiperimg5}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
@@ -722,63 +751,28 @@ export default function Index() {
                 <SwiperSlide>
                   <img
                     className="ourproject__swiper__img"
-                    src={swiperimg}
+                    src={swiperimg2}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="ourproject__swiper__img"
-                    src={swiperimg}
+                    src={swiperimg3}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="ourproject__swiper__img"
-                    src={swiperimg}
+                    src={swiperimg4}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="ourproject__swiper__img"
-                    src={swiperimg}
-                    alt=" swiperimg"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    className="ourproject__swiper__img"
-                    src={swiperimg}
-                    alt=" swiperimg"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    className="ourproject__swiper__img"
-                    src={swiperimg}
-                    alt=" swiperimg"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    className="ourproject__swiper__img"
-                    src={swiperimg}
-                    alt=" swiperimg"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    className="ourproject__swiper__img"
-                    src={swiperimg}
-                    alt=" swiperimg"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    className="ourproject__swiper__img"
-                    src={swiperimg}
+                    src={swiperimg5}
                     alt=" swiperimg"
                   />
                 </SwiperSlide>
