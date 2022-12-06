@@ -266,6 +266,33 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
 }
+.Signaturevilla__imgchange__buttons__button {
+  background-color: #e6e6e6;
+  color: #000000;
+  padding: 0.7em 4em;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Signaturevilla__imgchange__buttons__button:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+.Signaturevilla__imgchange__buttons__button:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+.Signaturevilla__imgchange__buttons__button:hover {
+  background-color: #ebb93b;
+  color: #fff;
+  // border-radius: 10px;
+}
+.Signaturevilla__imgchange__img img {
+  padding-top: 3em;
+  width: 100%;
+  // height: 60%;
+  object-fit: cover;
+}
 ////luxury
 .most__luxury {
   display: flex;

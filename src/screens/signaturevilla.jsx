@@ -1,5 +1,9 @@
 import React from "react";
-import { suitsfeaturesimg, SignatureVillaimg } from "../assets/index.js";
+import {
+  suitsfeaturesimg,
+  SignatureVillaimg,
+  signaturevillaimgchange,
+} from "../assets/index.js";
 export default function SignatureVilla() {
   //   const [selectedItem, setSelectedItem] = useState([]);
   //   const list = [
@@ -73,6 +77,9 @@ export default function SignatureVilla() {
             <button className="Signaturevilla__imgchange__buttons__button">
               Type 3
             </button>
+          </div>
+          <div className="Signaturevilla__imgchange__img">
+            <img src={signaturevillaimgchange} alt="Signaturevillaimgchange" />
           </div>
         </div>
       </section>

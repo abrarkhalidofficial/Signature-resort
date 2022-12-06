@@ -38,3 +38,4 @@ export { default as headerlogo } from "../assets/headerlogo.png";
 export { default as suitsfeaturesimg } from "../assets/suitsfeaturesimg.png";
 export { default as suitsfeaturesbedimg } from "../assets/suitsfeaturesbedimg.png";
 export { default as SignatureVillaimg } from "../assets/SignatureVillaimg.png";
+export { default as signaturevillaimgchange } from "../assets/signaturevillaimgchange.png";
