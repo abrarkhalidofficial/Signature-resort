@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: row;
   max-width: 1920px;
-  width: 100%;
+  width: 80%;
   // position: fixed;
   position: absolute;
   margin: 0px auto;
@@ -135,6 +135,9 @@
 }
 
 @media (max-width: 1440px) {
+  .header__navbar {
+    width: 99%;
+  }
   .header__navbar__center {
     max-width: var(--maxwidth3);
   }

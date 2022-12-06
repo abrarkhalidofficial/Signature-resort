@@ -9,6 +9,14 @@ import {
   mostluxuryright1,
   basedright,
   basedleft,
+  basedleft1,
+  basedleft2,
+  basedleft3,
+  basedleft4,
+  basedleft5,
+  basedleft6,
+  basedleft7,
+  basedleft8,
   swiperimg,
   swiperimg1,
   swiperimg2,
@@ -239,13 +247,13 @@ export default function Index() {
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
-                      src={basedleft}
+                      src={basedleft1}
                       alt="basedleft"
                     />
                   </div>
                   <div className="our__best__luxury__card__right">
                     <div className="our__best__luxury__card__right__text">
-                      Club facility
+                      Multiple 5-star Hotel Facility
                     </div>
                     <div className="our__best__luxury__card__right__para">
                       Dream Home is a gated community with a great location
@@ -262,13 +270,13 @@ export default function Index() {
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
-                      src={basedleft}
+                      src={basedleft2}
                       alt="basedleft"
                     />
                   </div>
                   <div className="our__best__luxury__card__right">
                     <div className="our__best__luxury__card__right__text">
-                      Club facility
+                      Paragliding sports
                     </div>
                     <div className="our__best__luxury__card__right__para">
                       Dream Home is a gated community with a great location
@@ -280,13 +288,13 @@ export default function Index() {
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
-                      src={basedleft}
+                      src={basedleft3}
                       alt="basedleft"
                     />
                   </div>
                   <div className="our__best__luxury__card__right">
                     <div className="our__best__luxury__card__right__text">
-                      Club facility
+                      Multilevel zipline
                     </div>
                     <div className="our__best__luxury__card__right__para">
                       Dream Home is a gated community with a great location
@@ -298,13 +306,13 @@ export default function Index() {
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
-                      src={basedleft}
+                      src={basedleft4}
                       alt="basedleft"
                     />
                   </div>
                   <div className="our__best__luxury__card__right">
                     <div className="our__best__luxury__card__right__text">
-                      Club facility
+                      Mountain top tennis court
                     </div>
                     <div className="our__best__luxury__card__right__para">
                       Dream Home is a gated community with a great location
@@ -316,13 +324,13 @@ export default function Index() {
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
-                      src={basedleft}
+                      src={basedleft5}
                       alt="basedleft"
                     />
                   </div>
                   <div className="our__best__luxury__card__right">
                     <div className="our__best__luxury__card__right__text">
-                      Club facility
+                      Swimming pools
                     </div>
                     <div className="our__best__luxury__card__right__para">
                       Dream Home is a gated community with a great location
@@ -334,13 +342,49 @@ export default function Index() {
                   <div className="our__best__luxury__card__left">
                     <img
                       className="our__best__luxury__card__left__img"
-                      src={basedleft}
+                      src={basedleft6}
                       alt="basedleft"
                     />
                   </div>
                   <div className="our__best__luxury__card__right">
                     <div className="our__best__luxury__card__right__text">
-                      Club facility
+                      Zoo
+                    </div>
+                    <div className="our__best__luxury__card__right__para">
+                      Dream Home is a gated community with a great location
+                      located downtown.
+                    </div>
+                  </div>
+                </div>
+                <div className="our__best__luxury__card">
+                  <div className="our__best__luxury__card__left">
+                    <img
+                      className="our__best__luxury__card__left__img"
+                      src={basedleft7}
+                      alt="basedleft"
+                    />
+                  </div>
+                  <div className="our__best__luxury__card__right">
+                    <div className="our__best__luxury__card__right__text">
+                      Mountain Trail
+                    </div>
+                    <div className="our__best__luxury__card__right__para">
+                      Dream Home is a gated community with a great location
+                      located downtown.
+                    </div>
+                  </div>
+                </div>
+                <div className="our__best__luxury__card">
+                  <div className="our__best__luxury__card__left">
+                    <img
+                      className="our__best__luxury__card__left__img"
+                      src={basedleft8}
+                      alt="basedleft"
+                    />
+                  </div>
+                  <div className="our__best__luxury__card__right">
+                    <div className="our__best__luxury__card__right__text">
+                      Sky walk Bridges
                     </div>
                     <div className="our__best__luxury__card__right__para">
                       Dream Home is a gated community with a great location
