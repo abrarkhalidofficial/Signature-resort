@@ -81,12 +81,7 @@ export default function Index() {
           </div>
           <div className="homesection__right">
             <div className="homesection__right__content">
-              <div
-                className="homesection__right__img"
-                data-aos="fade-up"
-                data-aos-delay="50"
-                data-aos-duration="1100"
-              >
+              <div className="homesection__right__img">
                 <img src={homesectionimg} alt="homesectionimg" />
               </div>
               <div

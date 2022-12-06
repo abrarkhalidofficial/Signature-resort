@@ -101,9 +101,9 @@ function X() {
           d="M4.5,18h27"
           fill="none"
           stroke="#bc993d"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
         <path
           id="Path_21896"
@@ -111,9 +111,9 @@ function X() {
           d="M4.5,9h27"
           fill="none"
           stroke="#bc993d"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
         <path
           id="Path_21897"
@@ -121,9 +121,9 @@ function X() {
           d="M4.5,27h27"
           fill="none"
           stroke="#bc993d"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
       </g>
     </svg>

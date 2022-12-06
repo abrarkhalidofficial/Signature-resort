@@ -4,7 +4,6 @@ import { suitsfeaturesimg, suitsfeaturesbedimg } from "../assets/index.js";
 export default function suitsfeatures() {
   return (
     <>
-      {" "}
       <section className="homesection__two " id="home">
         <div className="homesection__two__content">
           <div className="homesection__two__left">
