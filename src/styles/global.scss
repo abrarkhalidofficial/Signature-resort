@@ -82,6 +82,17 @@ body::-webkit-scrollbar-track {
   font-family: "Montserrat", sans-serif;
   margin: 1em 0em;
 }
+.homesection__three__left__info__heading {
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  margin: 1em 0em;
+}
+.homesection__three__left__info span {
+  color: #ebb93b;
+}
 .homesection__two__right {
   width: 50%;
   position: relative;
@@ -1415,7 +1426,8 @@ body::-webkit-scrollbar-track {
   }
   .homesection__left__info,
   .homesection__two__left__info,
-  .homesection__three__left__info {
+  .homesection__three__left__info,
+  .homesection__three__left__info__heading {
     text-align: center;
     font-size: 16px;
     margin: 1em 0em;
@@ -1583,6 +1595,7 @@ body::-webkit-scrollbar-track {
   .homesection__two__left__heading,
   .homesection__two__left__info,
   .homesection__three__left__info,
+  .homesection__three__left__info__heading,
   .homesection__left__heading,
   .homesection__left__info,
   .most__luxury__right__main__heading,

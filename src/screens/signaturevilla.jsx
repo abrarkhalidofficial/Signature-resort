@@ -28,28 +28,29 @@ export default function SignatureVilla() {
                 <span> Signature </span> Villa Features
               </div>
               <div className="homesection__three__left__info">
-                - Separate car parking area for each villa
+                <span>-</span> Separate car parking area for each villa
               </div>
               <div className="homesection__three__left__info">
-                - Mountain Facing view for each villa
+                <span>-</span> Mountain Facing view for each villa
               </div>
               <div className="homesection__three__left__info">
-                - Extra Land along with every villa
+                <span>-</span> Extra Land along with every villa
               </div>
               <div className="homesection__three__left__info">
-                - Spacious Bedrooms with full luxurious furnishing
+                <span>-</span> Spacious Bedrooms with full luxurious furnishing
               </div>
               <div className="homesection__three__left__info">
-                - Luxury Spacious washroom
+                <span>-</span> Luxury Spacious washroom
               </div>
               <div className="homesection__three__left__info">
-                - Fresh & friendly environment with nonpolluting air
+                <span>-</span> Fresh & friendly environment with nonpolluting
+                air
               </div>
               <div className="homesection__three__left__info">
-                - No Road in surrounding for traffic chaos
+                <span>-</span> No Road in surrounding for traffic chaos
               </div>
               <div className="homesection__three__left__info">
-                - Common Parking for all the residents
+                <span>-</span> Common Parking for all the residents
               </div>
             </div>
           </div>
