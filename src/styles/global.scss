@@ -1364,6 +1364,9 @@ body::-webkit-scrollbar-track {
     padding: 2em 0em;
     line-height: 25px;
   }
+  .Signaturevilla__imgchange__buttons__button {
+    padding: 0.5em 1.5em;
+  }
 }
 @media (max-width: 600px) {
   .homesection__two__right__button__svg {
@@ -1411,7 +1414,8 @@ body::-webkit-scrollbar-track {
     line-height: 35px;
   }
   .homesection__left__info,
-  .homesection__two__left__info {
+  .homesection__two__left__info,
+  .homesection__three__left__info {
     text-align: center;
     font-size: 16px;
     margin: 1em 0em;
@@ -1578,6 +1582,7 @@ body::-webkit-scrollbar-track {
   // }
   .homesection__two__left__heading,
   .homesection__two__left__info,
+  .homesection__three__left__info,
   .homesection__left__heading,
   .homesection__left__info,
   .most__luxury__right__main__heading,

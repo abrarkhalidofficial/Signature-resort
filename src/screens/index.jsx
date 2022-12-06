@@ -675,7 +675,7 @@ export default function Index() {
             data-aos-duration="1000"
           >
             <div className="overlay__img">
-              <NavLink to="/suitsfeatures">
+              <NavLink to="/signaturevilla">
                 <div href="suitsfeatures" className="Overlay__Card__img">
                   <img src={nextpageimg} alt="overlaycard" />
                 </div>
