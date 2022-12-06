@@ -75,6 +75,13 @@ body::-webkit-scrollbar-track {
   font-family: "Montserrat", sans-serif;
   margin: 2em 0em;
 }
+.homesection__three__left__info {
+  color: #fffbfb;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  margin: 1em 0em;
+}
 .homesection__two__right {
   width: 50%;
   position: relative;
@@ -230,6 +237,34 @@ body::-webkit-scrollbar-track {
   width: 100%;
   margin-bottom: -3.5em;
   object-fit: cover;
+}
+.SignatureVilla {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 2em 0em;
+}
+.SignatureVilla img {
+  width: 100%;
+}
+.Signaturevilla__imgchange {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 2em 0em;
+}
+.Signaturevilla__imgchange__content {
+  width: 100%;
+}
+.Signaturevilla__imgchange__buttons {
+  display: flex;
+  justify-content: center;
 }
 ////luxury
 .most__luxury {

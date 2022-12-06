@@ -37,3 +37,4 @@ export { default as nextpageimg2 } from "../assets/nextpageimg2.png";
 export { default as headerlogo } from "../assets/headerlogo.png";
 export { default as suitsfeaturesimg } from "../assets/suitsfeaturesimg.png";
 export { default as suitsfeaturesbedimg } from "../assets/suitsfeaturesbedimg.png";
+export { default as SignatureVillaimg } from "../assets/SignatureVillaimg.png";
