@@ -43,6 +43,7 @@ body::-webkit-scrollbar-track {
   padding-top: 7em;
   overflow-x: hidden;
 }
+
 .homesection__two__content {
   display: flex;
   max-width: 1920px;
@@ -664,6 +665,9 @@ body::-webkit-scrollbar-track {
   max-width: 600px;
   margin: 0 auto;
 }
+.locationfeatures__left__button {
+  margin-left: 1em;
+}
 .locationfeatures__right {
   width: 50%;
   display: flex;
@@ -1200,8 +1204,12 @@ body::-webkit-scrollbar-track {
     align-items: center;
     justify-content: center;
   }
-  .most__luxury__left {
+  .most__luxury__left,
+  .most__luxury__right {
     justify-content: center;
+  }
+  .most__luxury__right__main__heading {
+    margin: 0 auto;
   }
   .ourbest__left {
     width: 100%;
