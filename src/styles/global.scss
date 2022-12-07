@@ -244,6 +244,12 @@ body::-webkit-scrollbar-track {
 .homesection__right__svg:hover * {
   fill: #105a4e;
 }
+.suitsfeaturesbed {
+  width: 100%;
+
+  margin: 0 auto;
+  max-width: 1920px;
+}
 .suitsfeaturesbedimg img {
   width: 100%;
   margin-bottom: -3.5em;
@@ -995,6 +1001,7 @@ body::-webkit-scrollbar-track {
   );
   z-index: 9999;
   cursor: pointer;
+  height: 99%;
 }
 .overlay__img:hover {
   background: linear-gradient(180deg, #105a4e 0%, rgba(16, 90, 78, 0) 100%);

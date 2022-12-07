@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useLayoutEffect } from "react";
 import ClickAwayListener from "react-click-away-listener";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { headerlogo } from "../assets/index.js";
 // import { Menu } from "react-feather";
 
@@ -61,18 +62,58 @@ export default function Header() {
               }}
             >
               <div className="header__entries">
-                <a href="#home" className="header__entry">
+                <Link
+                  to="/"
+                  onClick={() => {
+                    setTimeout(() => {
+                      document
+                        .getElementById("home")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }, 1000);
+                  }}
+                  className="header__entry"
+                >
                   Home
-                </a>
-                <a href="#about" className="header__entry">
+                </Link>
+                <Link
+                  to="/"
+                  onClick={() => {
+                    setTimeout(() => {
+                      document
+                        .getElementById("about")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }, 1000);
+                  }}
+                  className="header__entry"
+                >
                   About Us
-                </a>
-                <a href="#features" className="header__entry">
+                </Link>
+                <Link
+                  to="/"
+                  onClick={() => {
+                    setTimeout(() => {
+                      document
+                        .getElementById("features")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }, 1000);
+                  }}
+                  className="header__entry"
+                >
                   Features
-                </a>
-                <a href="#contact" className="header__entry">
+                </Link>
+                <Link
+                  to="/"
+                  onClick={() => {
+                    setTimeout(() => {
+                      document
+                        .getElementById("contact")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }, 1000);
+                  }}
+                  className="header__entry"
+                >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </ClickAwayListener>
           ) : null}

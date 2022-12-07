@@ -670,7 +670,15 @@ export default function Index() {
             data-aos-duration="1000"
           >
             <div className="overlay__img">
-              <NavLink to="/signaturevilla">
+              <NavLink
+                to="/signaturevilla"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+              >
                 <div href="suitsfeatures" className="Overlay__Card__img">
                   <img src={nextpageimg} alt="overlaycard" />
                 </div>
@@ -685,10 +693,18 @@ export default function Index() {
             data-aos-duration="1000"
           >
             <div className="overlay__img">
-              <NavLink to="/suitsfeatures">
+              <NavLink
+                to="/suitsfeatures"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+              >
                 <div href="suitsfeatures" className="Overlay__Card__img">
                   <img src={nextpageimg1} alt="overlaycard" />
-                </div>
+                </div>{" "}
               </NavLink>
               <div className="overlay__heading">Hotel suite</div>
             </div>
@@ -700,7 +716,15 @@ export default function Index() {
             data-aos-duration="1000"
           >
             <div className="overlay__img">
-              <NavLink to="/hotalapart  ">
+              <NavLink
+                to="/hotalapart  "
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+              >
                 <div href="suitsfeatures" className="Overlay__Card__img">
                   <img src={nextpageimg2} alt="overlaycard" />
                 </div>
