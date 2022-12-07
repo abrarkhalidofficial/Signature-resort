@@ -1,10 +1,14 @@
-import React from "react";
 import {
-  suitsfeaturesimg,
   SignatureVillaimg,
   signatureapartimgchange,
-} from "../assets/index.js";
+  suitsfeaturesimg,
+} from "../assets";
+
+import { ImageSelector } from "../components/ImageSelector";
+import React from "react";
+
 export default function hotalapart() {
+  const images = [signatureapartimgchange, SignatureVillaimg, suitsfeaturesimg];
   return (
     <>
       <section className="homesection__two " id="home">
@@ -55,24 +59,7 @@ export default function hotalapart() {
       <section className="SignatureVilla">
         <img src={SignatureVillaimg} alt="SignatureVillaimg" />
       </section>
-      <section className="Signaturevilla__imgchange">
-        <div className="Signaturevilla__imgchange__content">
-          <div className="Signaturevilla__imgchange__buttons">
-            <button className="Signaturevilla__imgchange__buttons__button">
-              Type 1
-            </button>
-            <button className="Signaturevilla__imgchange__buttons__button">
-              Type 2
-            </button>
-            <button className="Signaturevilla__imgchange__buttons__button">
-              Type 3
-            </button>
-          </div>
-          <div className="Signaturevilla__imgchange__img">
-            <img src={signatureapartimgchange} alt="signatureapartimgchange" />
-          </div>
-        </div>
-      </section>
+      <ImageSelector images={images} />
     </>
   );
 }

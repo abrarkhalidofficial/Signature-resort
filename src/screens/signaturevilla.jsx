@@ -1,23 +1,14 @@
-import React from "react";
 import {
-  suitsfeaturesimg,
   SignatureVillaimg,
   signaturevillaimgchange,
-} from "../assets/index.js";
+  suitsfeaturesimg,
+} from "../assets";
+
+import { ImageSelector } from "../components/ImageSelector";
+import React from "react";
+
 export default function SignatureVilla() {
-  //   const [selectedItem, setSelectedItem] = useState([]);
-  //   const list = [
-  //     {
-  //       image: productsright,
-  //     },
-  //   ];
-  //   useEffect(() => {
-  //     list
-  //       .filter((_item, i) => i === 0)
-  //       .map((item) => {
-  //         setSelectedItem(item);
-  //       });
-  //   }, []);
+  const images = [signaturevillaimgchange, suitsfeaturesimg, SignatureVillaimg];
   return (
     <>
       <section className="homesection__two " id="home">
@@ -66,24 +57,7 @@ export default function SignatureVilla() {
       <section className="SignatureVilla">
         <img src={SignatureVillaimg} alt="SignatureVillaimg" />
       </section>
-      <section className="Signaturevilla__imgchange">
-        <div className="Signaturevilla__imgchange__content">
-          <div className="Signaturevilla__imgchange__buttons">
-            <button className="Signaturevilla__imgchange__buttons__button">
-              Type 1
-            </button>
-            <button className="Signaturevilla__imgchange__buttons__button">
-              Type 2
-            </button>
-            <button className="Signaturevilla__imgchange__buttons__button">
-              Type 3
-            </button>
-          </div>
-          <div className="Signaturevilla__imgchange__img">
-            <img src={signaturevillaimgchange} alt="Signaturevillaimgchange" />
-          </div>
-        </div>
-      </section>
+      <ImageSelector images={images} />
     </>
   );
 }

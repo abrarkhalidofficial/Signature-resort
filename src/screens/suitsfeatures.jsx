@@ -1,6 +1,8 @@
-import React from "react";
+import { suitsfeaturesbedimg, suitsfeaturesimg } from "../assets";
+
 import { NavLink } from "react-router-dom";
-import { suitsfeaturesimg, suitsfeaturesbedimg } from "../assets/index.js";
+import React from "react";
+
 export default function suitsfeatures() {
   return (
     <>

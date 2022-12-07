@@ -282,16 +282,21 @@ body::-webkit-scrollbar-track {
 .Signaturevilla__imgchange__buttons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .Signaturevilla__imgchange__buttons__button {
   background-color: #e6e6e6;
   color: #000000;
   padding: 0.7em 4em;
   font-size: 16px;
+  font-weight: bold;
   border: none;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+}
+.Signaturevilla__imgchange__buttons__button:nth-child(4n) {
+  border-radius: 0px 10px 10px 0px;
 }
 .Signaturevilla__imgchange__buttons__button:first-child {
   border-radius: 10px 0px 0px 10px;
@@ -300,9 +305,19 @@ body::-webkit-scrollbar-track {
   border-radius: 0px 10px 10px 0px;
 }
 .Signaturevilla__imgchange__buttons__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #f6f6f6;
+  color: black;
+}
+.Signaturevilla__imgchange__buttons__button__active {
+  transition: 300ms ease-in-out;
   background-color: #ebb93b;
   color: #fff;
-  // border-radius: 10px;
+}
+.Signaturevilla__imgchange__buttons__button__active:hover {
+  transition: 300ms ease-in-out;
+  background-color: #ebb93b;
+  color: #fff;
 }
 .Signaturevilla__imgchange__img img {
   padding-top: 3em;

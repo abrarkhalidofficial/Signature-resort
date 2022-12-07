@@ -1,9 +1,11 @@
-import React from "react";
-import { useState, useLayoutEffect } from "react";
+import { useLayoutEffect, useState } from "react";
+
 import ClickAwayListener from "react-click-away-listener";
-import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { headerlogo } from "../assets/index.js";
+import { NavLink } from "react-router-dom";
+import React from "react";
+import { headerlogo } from "../assets";
+
 // import { Menu } from "react-feather";
 
 export default function Header() {

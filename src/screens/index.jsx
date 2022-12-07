@@ -1,13 +1,11 @@
-import { NavLink } from "react-router-dom";
-import React from "react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import {
-  homesectionimg,
-  locationfeaturesimg,
   aboutjsevenimg,
-  mostluxuryimg,
-  mostluxuryright,
-  mostluxuryright1,
-  basedright,
   basedleft,
   basedleft1,
   basedleft2,
@@ -17,28 +15,32 @@ import {
   basedleft6,
   basedleft7,
   basedleft8,
-  swiperimg,
-  swiperimg1,
-  swiperimg2,
-  swiperimg3,
-  swiperimg4,
-  swiperimg5,
+  basedright,
+  homesectionimg,
+  locationfeaturesimg,
   locctionswiperimg,
   locctionswiperimg1,
   locctionswiperimg2,
   locctionswiperimg3,
   locctionswiperimg4,
   locctionswiperimg5,
+  mostluxuryimg,
+  mostluxuryright,
+  mostluxuryright1,
   nextpageimg,
   nextpageimg1,
   nextpageimg2,
-} from "../assets/index.js";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+  swiperimg,
+  swiperimg1,
+  swiperimg2,
+  swiperimg3,
+  swiperimg4,
+  swiperimg5,
+} from "../assets";
+
 import AOS from "aos";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import { NavLink } from "react-router-dom";
+import React from "react";
 
 export default function Index() {
   AOS.init();
@@ -421,8 +423,6 @@ export default function Index() {
                 slidesPerView={3}
                 navigation
                 pagination={{ clickable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
               >
                 <SwiperSlide>
                   <img
@@ -804,8 +804,6 @@ export default function Index() {
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
               >
                 <SwiperSlide>
                   <img
