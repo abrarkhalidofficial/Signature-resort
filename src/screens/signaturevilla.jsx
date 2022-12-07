@@ -2,13 +2,18 @@ import {
   SignatureVillaimg,
   signaturevillaimgchange,
   suitsfeaturesimg,
+  signatureapartimgchange,
 } from "../assets";
 
 import { ImageSelector } from "../components/ImageSelector";
 import React from "react";
 
 export default function SignatureVilla() {
-  const images = [signaturevillaimgchange, suitsfeaturesimg, SignatureVillaimg];
+  const images = [
+    signaturevillaimgchange,
+    signatureapartimgchange,
+    signaturevillaimgchange,
+  ];
   return (
     <>
       <section className="homesection__two " id="home">
