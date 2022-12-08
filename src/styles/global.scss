@@ -9,6 +9,9 @@
   scroll-behavior: smooth;
   font-family: sans-serif; // replace this with font family
 }
+:root {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   padding: 0;
@@ -247,9 +250,8 @@ body::-webkit-scrollbar-track {
 }
 .suitsfeaturesbed {
   width: 100%;
-
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1000px;
 }
 .suitsfeaturesbedimg img {
   width: 100%;
@@ -262,7 +264,7 @@ body::-webkit-scrollbar-track {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1000px;
   padding: 2em 0em;
 }
 .SignatureVilla img {
@@ -274,7 +276,7 @@ body::-webkit-scrollbar-track {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1000px;
   padding: 2em 0em;
 }
 .Signaturevilla__imgchange__content {
@@ -848,7 +850,7 @@ body::-webkit-scrollbar-track {
 .footer__left__info {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  margin: 2em 0em;
+  // margin: 2em 0em;
   font-size: 18px;
   line-height: 25px;
 }
@@ -1323,7 +1325,7 @@ body::-webkit-scrollbar-track {
   .most__luxury__right {
     align-items: center;
     text-align: center;
-    width: 70%;
+    width: 100%;
   }
   .most__luxury {
     padding: 2em 0em;

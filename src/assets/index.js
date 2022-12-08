@@ -37,6 +37,12 @@ export { default as nextpageimg2 } from "../assets/nextpageimg2.png";
 export { default as headerlogo } from "../assets/headerlogo.png";
 export { default as suitsfeaturesimg } from "../assets/suitsfeaturesimg.png";
 export { default as suitsfeaturesbedimg } from "../assets/suitsfeaturesbedimg.png";
-export { default as SignatureVillaimg } from "../assets/SignatureVillaimg.png";
-export { default as signaturevillaimgchange } from "../assets/signaturevillaimgchange.png";
-export { default as signatureapartimgchange } from "../assets/signatureapartimgchange.png";
+
+export { default as Signatureimg } from "../assets/imgs/Signatureimg.png";
+export { default as Signatureimg1 } from "../assets/imgs/Signatureimg1.png";
+export { default as Signatureimg2 } from "../assets/imgs/Signatureimg2.png";
+export { default as Signatureimg3 } from "../assets/imgs/Signatureimg3.png";
+export { default as signaturevillatypeimgbanner } from "../assets/imgs/signaturevillatypeimgbanner.png";
+export { default as signaturevillatypeimg1 } from "../assets/imgs/signaturevillatypeimg1.png";
+export { default as signaturevillatypeimg2 } from "../assets/imgs/signaturevillatypeimg2.png";
+export { default as signaturevillatypeimg3 } from "../assets/imgs/signaturevillatypeimg3.png";

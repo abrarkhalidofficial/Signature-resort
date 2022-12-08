@@ -1,7 +1,8 @@
 import {
-  SignatureVillaimg,
-  signatureapartimgchange,
-  signaturevillaimgchange,
+  Signatureimg,
+  Signatureimg1,
+  Signatureimg2,
+  Signatureimg3,
   suitsfeaturesimg,
 } from "../assets";
 
@@ -9,11 +10,7 @@ import { ImageSelector } from "../components/ImageSelector";
 import React from "react";
 
 export default function hotalapart() {
-  const images = [
-    signatureapartimgchange,
-    signaturevillaimgchange,
-    signatureapartimgchange,
-  ];
+  const images = [Signatureimg1, Signatureimg2, Signatureimg3];
   return (
     <>
       <section className="homesection__two " id="home">
@@ -62,7 +59,7 @@ export default function hotalapart() {
         </div>
       </section>
       <section className="SignatureVilla">
-        <img src={SignatureVillaimg} alt="SignatureVillaimg" />
+        <img src={Signatureimg} alt="SignatureVillaimg" />
       </section>
       <ImageSelector images={images} />
     </>
