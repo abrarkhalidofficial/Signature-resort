@@ -1059,19 +1059,113 @@ body::-webkit-scrollbar-track {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 1920px;
-  margin-top: 5em;
+  // max-width: 1920px;
+  // margin-top: 4em;
   position: absolute;
+  top: 35px;
+  left: 0;
+}
+.formsection__heading span {
+  color: #ebb93b;
+}
+.formsection__heading {
+  font-size: 30px;
+  height: 50px;
+  font-family: "El Messiri", sans-serif;
+  color: #105a4e;
+  margin-bottom: 1em;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.formsection__info {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  margin-bottom: 1em;
+  max-width: 600px;
+}
+.formsection__info__two {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #105a4e;
+  margin-bottom: 1em;
+  max-width: 600px;
+  text-align: center;
+}
+.popup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+.formsection__content {
+  position: relative;
+}
+.popup__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 9999;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+
+  outline: none;
+  background-color: #ebb93b;
+  // padding: 5px;
+  border-radius: 100px;
+}
+
+.popup__overlay {
+  position: fixed;
+  // background: rgba(16, 90, 78, 0.9);
+  // background-color: rgba(161, 161, 161, 0.1);
+  width: 100%;
+  height: 600px;
+  // background-color: rgb(199, 173, 173);
   // top: 0;
+  z-index: 9999;
   // left: 0;
 }
 .formsection__content {
   width: 100%;
   background-color: #fff;
   padding: 3em;
-  padding-top: 4em;
+  padding-top: 3em;
   max-width: 900px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.formsection__content::-webkit-scrollbar {
+  width: 5px;
+
+  // display: none;
+}
+.formsection__content::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#105a4e),
+    to(#ebb93b)
+  );
+  background: linear-gradient(#105a4e 0%, #ebb93b 100%);
+  border-radius: 50px;
+}
+.formsection__content::-webkit-scrollbar-track {
+  background-color: white;
 }
 .formsection__content__all__input {
   display: flex;
@@ -1092,7 +1186,7 @@ body::-webkit-scrollbar-track {
 
   font-size: 16px;
   height: 50px;
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
   outline: none;
   padding: 0 1em;
   transition: 0.2s;
@@ -1145,7 +1239,6 @@ body::-webkit-scrollbar-track {
   padding: 0 2em;
   text-transform: uppercase;
   width: 350px;
-  margin-top: 1em;
 }
 .formsection__content__all__button button:hover {
   background-color: #ebb93b;
@@ -1500,6 +1593,17 @@ body::-webkit-scrollbar-track {
     text-align: center;
     line-height: 25px;
   }
+  .formsection__heading {
+    font-size: 18px;
+    text-align: center;
+    height: 28px;
+  }
+  .formsection__info,
+  .formsection__info__two {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0.5em;
+  }
   .most__luxury__right__button {
     width: 100%;
   }
@@ -1524,6 +1628,33 @@ body::-webkit-scrollbar-track {
   }
   .Signaturevilla__imgchange__buttons__button {
     padding: 0.5em 1.5em;
+  }
+  .formsection__content__input input,
+  .formsection__content__msg {
+    margin-bottom: 1em;
+  }
+  .formsection__content__all__button button {
+    margin-top: 0.5em;
+    width: 250px;
+  }
+
+  .formsection__content__msg textarea {
+    margin-bottom: 0em;
+  }
+  .formsection__content__all__button {
+    padding: 0em;
+  }
+  .formsection__content {
+    width: 100%;
+    max-height: 100vh;
+    overflow: auto;
+  }
+  .formsection {
+    top: 0;
+  }
+  .popup__close {
+    top: 6px;
+    right: 6px;
   }
 }
 @media (max-width: 600px) {

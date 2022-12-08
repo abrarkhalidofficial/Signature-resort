@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import React from "react";
 import { headerlogo } from "../assets";
+import Popup from "./Popup";
 
 // import { Menu } from "react-feather";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(true);
   const [isScroll, setIsScroll] = useState(false);
-
+  const [show, setShow] = useState(false);
   function changeIsNavOpen() {
     if (window.innerWidth <= 945) {
       setIsNavOpen(false);
@@ -34,95 +35,99 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="header__section">
-      <div
-        className={
-          isScroll
-            ? "header__navbar header__navbar__center__active"
-            : "header__navbar"
-        }
-      >
-        {/* <div className="header__navbar__left"></div> */}
-        <div className="header__navbar__center">
-          <NavLink to="/" className="header__logo">
-            <img src={headerlogo} alt="logo" />
-          </NavLink>
-          <div
-            className="header__menu"
-            onClick={() => {
-              setIsNavOpen(!isNavOpen);
-            }}
-          >
-            {isNavOpen ? <Y /> : <X />}
-          </div>
-          {isNavOpen ? (
-            <ClickAwayListener
-              onClickAway={() => {
-                if (window.innerWidth <= 945) {
-                  setIsNavOpen(false);
-                }
+    <>
+      <div className="header__section">
+        <div
+          className={
+            isScroll
+              ? "header__navbar header__navbar__center__active"
+              : "header__navbar"
+          }
+        >
+          {/* <div className="header__navbar__left"></div> */}
+          <div className="header__navbar__center">
+            <NavLink to="/" className="header__logo">
+              <img src={headerlogo} alt="logo" />
+            </NavLink>
+            <div
+              className="header__menu"
+              onClick={() => {
+                setIsNavOpen(!isNavOpen);
               }}
             >
-              <div className="header__entries">
-                <Link
-                  to="/"
-                  onClick={() => {
-                    setTimeout(() => {
-                      document
-                        .getElementById("home")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }, 1000);
-                  }}
-                  className="header__entry"
-                >
-                  Home
-                </Link>
-                <Link
-                  to="/"
-                  onClick={() => {
-                    setTimeout(() => {
-                      document
-                        .getElementById("about")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }, 1000);
-                  }}
-                  className="header__entry"
-                >
-                  About Us
-                </Link>
-                <Link
-                  to="/"
-                  onClick={() => {
-                    setTimeout(() => {
-                      document
-                        .getElementById("features")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }, 1000);
-                  }}
-                  className="header__entry"
-                >
-                  Features
-                </Link>
-                <Link
-                  to="/"
-                  onClick={() => {
-                    setTimeout(() => {
-                      document
-                        .getElementById("contact")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }, 1000);
-                  }}
-                  className="header__entry"
-                >
-                  Contact Us
-                </Link>
-              </div>
-            </ClickAwayListener>
-          ) : null}
+              {isNavOpen ? <Y /> : <X />}
+            </div>
+            {isNavOpen ? (
+              <ClickAwayListener
+                onClickAway={() => {
+                  if (window.innerWidth <= 945) {
+                    setIsNavOpen(false);
+                  }
+                }}
+              >
+                <div className="header__entries">
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      setTimeout(() => {
+                        document
+                          .getElementById("home")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }, 1000);
+                    }}
+                    className="header__entry"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      setTimeout(() => {
+                        document
+                          .getElementById("about")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }, 1000);
+                    }}
+                    className="header__entry"
+                  >
+                    About Us
+                  </Link>
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      setTimeout(() => {
+                        document
+                          .getElementById("features")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }, 1000);
+                    }}
+                    className="header__entry"
+                  >
+                    Features
+                  </Link>
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      setShow(!false);
+                      setTimeout(() => {
+                        document;
+                        // .getElementById("contact")
+                        // .scrollIntoView({ behavior: "smooth" });
+                      }, 1000);
+                    }}
+                    className="header__entry"
+                  >
+                    Contact Us
+                  </Link>
+                </div>
+              </ClickAwayListener>
+            ) : null}
+          </div>
+          {/* <div className="header__navbar__right"></div> */}
         </div>
-        {/* <div className="header__navbar__right"></div> */}
       </div>
-    </div>
+      {show ? <Popup setShow={setShow} /> : null}
+    </>
   );
 }
 function X() {
