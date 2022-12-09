@@ -64,8 +64,15 @@ export function locationfeatures() {
               data-aos="fade-up"
               data-aos-delay="60"
               data-aos-duration="1300"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+                navigate("/hotalapart");
+              }}
             >
-              Read More
+              Book Now
             </button>
           </div>
         </div>

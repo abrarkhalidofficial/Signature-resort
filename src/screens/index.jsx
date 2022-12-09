@@ -11,10 +11,10 @@ import { locationpointer } from "../components/locationpointer";
 import { ourbest } from "../components/ourbest";
 import { most__luxury } from "../components/most__luxury";
 import { homesection } from "../components/homesection";
-
+import { useNavigate } from "react-router-dom";
 export default function Index() {
   AOS.init();
-
+  const navigate = useNavigate();
   return (
     <>
       {homesection()}

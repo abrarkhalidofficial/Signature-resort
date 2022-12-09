@@ -1,7 +1,9 @@
 import { aboutjsevenimg } from "../assets";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export function aboutjseven() {
+  const navigate = useNavigate();
   return (
     <section className="aboutjseven" id="about">
       <div className="aboutjseven__content">
@@ -45,6 +47,13 @@ export function aboutjseven() {
             </div>
             <button
               className="aboutjseven__right__button"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+                navigate("/hotalapart");
+              }}
               data-aos="fade-up"
               data-aos-delay="60"
               data-aos-duration="1200"

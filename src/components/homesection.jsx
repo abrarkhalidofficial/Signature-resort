@@ -1,7 +1,9 @@
 import { homesectionimg } from "../assets";
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 export function homesection() {
+  const navigate = useNavigate();
   return (
     <section className="homesection " id="home">
       <div className="homesection__content">
@@ -27,14 +29,17 @@ export function homesection() {
               with easy access to freeways, buses and trolleys. . Laundry is
               available on premises.
             </div>
+
             <button
+              onClick={() => {
+                navigate("/signaturevilla");
+              }}
               className="homesection__left__button"
               data-aos="fade-up"
               data-aos-delay="70"
               data-aos-duration="1600"
-              to="/suitsfeatures"
             >
-              Lead form
+              More Details
             </button>
           </div>
         </div>
@@ -44,6 +49,9 @@ export function homesection() {
               <img src={homesectionimg} alt="homesectionimg" />
             </div>
             <div
+              onClick={() => {
+                navigate("/hotalapart");
+              }}
               className="homesection__right__button__svg"
               data-aos="fade-up"
               data-aos-delay="50"

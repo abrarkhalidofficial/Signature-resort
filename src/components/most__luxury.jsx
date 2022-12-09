@@ -1,7 +1,9 @@
 import { mostluxuryimg, mostluxuryright, mostluxuryright1 } from "../assets";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export function most__luxury() {
+  const navigate = useNavigate();
   return (
     <section className="most__luxury">
       <div className="most__luxury__content">
@@ -46,6 +48,13 @@ export function most__luxury() {
               trolleys. . Laundry is available on premises.
             </div>
             <button
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+                navigate("/hotalapart");
+              }}
               className="most__luxury__right__button"
               data-aos="fade-up"
               data-aos-delay="60"
