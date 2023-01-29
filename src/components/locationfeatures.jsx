@@ -21,11 +21,12 @@ export function locationfeatures() {
               data-aos-delay="60"
               data-aos-duration="1300"
             >
-              Dream Home is a gated community with a great location. Located
-              downtown, you’re within walking distance of Parks, and the best
-              shopping, dining and entertainment Getting around is a breeze,
-              with easy access to freeways, buses and trolleys. . Laundry is
-              available on premises.
+              Nestled atop the picturesque Patriata, Top, Murree, Signature
+              resort offers a serene and peaceful getaway connected to the
+              capital through five well-built roads. Discover the beauty of
+              Murree Hills while enjoying the convenience of easy access. Come
+              and see for yourself why Signature Resort is the ideal location
+              for your next getaway.
             </div>
             <div className="locationfeatures__left__points">
               <div
@@ -35,8 +36,7 @@ export function locationfeatures() {
                 data-aos-delay="50"
                 data-aos-duration="1100"
               >
-                <span className="spanpoint">.</span> Located just in front of
-                tourism highway.
+                <span className="spanpoint">.</span> Murree Expressway
               </div>
               <div
                 href="#"
@@ -45,8 +45,7 @@ export function locationfeatures() {
                 data-aos-delay="55"
                 data-aos-duration="1200"
               >
-                <span className="spanpoint">.</span> Located just in front of
-                tourism highway.
+                <span className="spanpoint">.</span> GT Road
               </div>
               <div
                 href="#"
@@ -55,8 +54,25 @@ export function locationfeatures() {
                 data-aos-delay="60"
                 data-aos-duration="1300"
               >
-                <span className="spanpoint">.</span> Located just in front of
-                tourism highway.
+                <span className="spanpoint">.</span> Angori Road
+              </div>
+              <div
+                href="#"
+                className="locationfeatures__left__points__tags"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
+                <span className="spanpoint">.</span> Karor Road
+              </div>
+              <div
+                href="#"
+                className="locationfeatures__left__points__tags"
+                data-aos="fade-up"
+                data-aos-delay="60"
+                data-aos-duration="1300"
+              >
+                <span className="spanpoint">.</span> Kotli Sattian Road
               </div>
             </div>
             <button
