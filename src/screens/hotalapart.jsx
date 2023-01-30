@@ -20,6 +20,12 @@ export default function hotalapart() {
               <div className="homesection__two__left__heading">
                 <span> Hotal </span> Apartment Features
               </div>
+              <div className="homesection__three__left__info__heading__info">
+                Each apartment is an embodiment of luxury, where modern design
+                elements come together to create an ambiance of comfort and
+                style. Indulge in the ultimate elegance and comfort in our
+                modernly designed apartments
+              </div>
               <div className="homesection__three__left__info__heading">
                 Every apartment is corner apartment along with
               </div>

@@ -37,15 +37,13 @@ export function most__luxury() {
               data-aos-delay="60"
               data-aos-duration="1300"
             >
-              Dream Home is a gated community with a great location. Located
-              downtown, you’re within walking distance of Parks, and the best
-              shopping, dining and entertainment Getting around is a breeze,
-              with easy access to freeways, buses and trolleys. . Laundry is
-              available on premises.Dream Home is a gated community with a great
-              location. Located downtown, you’re within walking distance of
-              Parks, and the best shopping, dining and entertainment Getting
-              around is a breeze, with easy access to freeways, buses and
-              trolleys. . Laundry is available on premises.
+              From the spacious villas to the elegant suites, apartments and
+              chalets, every inch of this resort has been designed to transport
+              you to a realm of unparalleled comfort and relaxation. With 5-star
+              standard services and amenities that are sure to impress, this is
+              truly a one-of-a-kind destination in Pakistan. Don't miss your
+              chance to experience the ultimate in luxury and elegance at the
+              first-of-its-kind theme-based resort in Pakistan
             </div>
             <button
               onClick={() => {

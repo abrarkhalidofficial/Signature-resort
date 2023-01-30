@@ -84,7 +84,7 @@ body::-webkit-scrollbar-track {
   font-size: 18px;
   line-height: 25px;
   font-family: "Montserrat", sans-serif;
-  margin: 1em 0em;
+  margin: 0.5em 0em;
 }
 .homesection__three__left__info__heading {
   color: #fff;
@@ -93,6 +93,15 @@ body::-webkit-scrollbar-track {
   line-height: 25px;
   font-family: "Montserrat", sans-serif;
   margin: 1em 0em;
+}
+.homesection__three__left__info__heading__info {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  // margin: 1em 0em;
 }
 .homesection__three__left__info span {
   color: #ebb93b;
@@ -377,7 +386,7 @@ body::-webkit-scrollbar-track {
 
 .most__luxury__right__info {
   font-family: "Montserrat", sans-serif;
-  color: #105a4e;
+  color: #4d4c4d;
   margin: 2em 0em;
   font-size: 18px;
   line-height: 25px;
@@ -1710,6 +1719,9 @@ body::-webkit-scrollbar-track {
     margin: 1em 0em;
     line-height: 25px;
   }
+  .homesection__three__left__info__heading__info {
+    text-align: center;
+  }
   .homesection__left__button,
   .homesection__two__left__button {
     margin: 0em 2em;
@@ -1768,8 +1780,9 @@ body::-webkit-scrollbar-track {
     width: 420px;
   }
   .locationfeatures__left__points {
-    text-align: center;
+    text-align: start;
     font-size: 16px;
+    margin-left: 1em;
   }
   .ourproject__left__heading {
     text-align: center;

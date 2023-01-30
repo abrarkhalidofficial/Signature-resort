@@ -15,7 +15,7 @@ export function homesection() {
               data-aos-delay="50"
               data-aos-duration="1000"
             >
-              <span> Most luxury </span> resorts for more discering Customers
+              <span> THE FIRST OF </span> ITS KIND 5-STAR RESORT IN PAKISTAN
             </div>
             <div
               className="homesection__left__info"
@@ -23,11 +23,14 @@ export function homesection() {
               data-aos-delay="60"
               data-aos-duration="1500"
             >
-              Dream Home is a gated community with a great location. Located
-              downtown, you’re within walking distance of Parks, and the best
-              shopping, dining and entertainment Getting around is a breeze,
-              with easy access to freeways, buses and trolleys. . Laundry is
-              available on premises.
+              Spread over 50 kanals in the majestic Queen of Hills, Murree,
+              Signature Resort offers a truly unparalleled experience in
+              hospitality. Imagine stepping into a world where international
+              standards of luxury blend seamlessly with unique, neverbefore-seen
+              theme-based architecture and amenities. From the moment you arrive
+              Signature Resort, you'll experience a world of elegance and
+              refinement, where every detail has been carefully crafted to
+              exceed your expectations.
             </div>
 
             <button
