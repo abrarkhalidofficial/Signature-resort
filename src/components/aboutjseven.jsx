@@ -35,15 +35,7 @@ export function aboutjseven() {
               data-aos-delay="60"
               data-aos-duration="1200"
             >
-              Dream Home is a gated community with a great location. Located
-              downtown, you’re within walking distance of Parks, and the best
-              shopping, dining and entertainment Getting around is a breeze,
-              with easy access to freeways, buses and trolleys. . Laundry is
-              available on premises.Dream Home is a gated community with a great
-              location. Located downtown, you’re within walking distance of
-              Parks, and the best shopping, dining and entertainment Getting
-              around is a breeze, with easy access to freeways, buses and
-              trolleys. . Laundry is available on premises.
+              J7 Global is where commercial success meets the highest degree of opulence. It is an upcoming real estate project in the capital city, offering lucrative investment opportunities in its Mega Shopping Mall and Luxury Hotel.Being a project of J7 Group . one of the biggest real estate developers . J7 Global promises to surpass all your expectations with the J7 Group’s ultramodern resources, highly talented team, acclaimed punctuality and quality work.
             </div>
             <button
               className="aboutjseven__right__button"
