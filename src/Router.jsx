@@ -45,8 +45,6 @@ const eagerRoutes = Object.keys(EAGER_ROUTES)
     return {
       path,
       component: EAGER_ROUTES[route].default,
-      loader: async (...args) => routes().then((mod) => mod?.loader?.(...args)),
-      action: async (...args) => routes().then((mod) => mod?.action?.(...args)),
       preload: ROUTES[route],
     };
   });
@@ -62,8 +60,6 @@ const lazyRoutes = Object.keys(LAZY_ROUTES).map((route) => {
   return {
     path,
     component: lazy(LAZY_ROUTES[route]),
-    loader: async (...args) => routes().then((mod) => mod?.loader?.(...args)),
-    action: async (...args) => routes().then((mod) => mod?.action?.(...args)),
     preload: ROUTES[route],
   };
 });
@@ -193,7 +189,6 @@ const Router = () => {
   const App = preserved?.["app"] || Fragment;
   const NotFound = preserved?.["notFound"] || Fragment;
   const Loading = preserved?.["loading"] || Fragment;
-  const Error = preserved?.["error"] || Fragment;
 
   return (
     <Suspense fallback={<Loading />}>
@@ -212,20 +207,9 @@ const Router = () => {
                 />
               }
             >
-              {routes?.map(
-                ({ path, component: Component = Fragment, loader, action }) => {
-                  return (
-                    <Route
-                      key={path}
-                      path={path}
-                      element={<Component />}
-                      loader={loader}
-                      action={action}
-                      errorElement={<Error />}
-                    />
-                  );
-                }
-              )}
+              {routes?.map(({ path, component: Component = Fragment }) => {
+                return <Route key={path} path={path} element={<Component />} />;
+              })}
               <Route path="*" element={<NotFound />} />
             </Route>
           )
