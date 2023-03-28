@@ -168,6 +168,7 @@ body::-webkit-scrollbar-track {
   max-width: 1920px;
   background-color: #105a4e;
   padding-top: 4em;
+
 }
 .homesection__content {
   display: flex;
@@ -349,7 +350,7 @@ body::-webkit-scrollbar-track {
 .most__luxury__content {
   width: 100%;
   margin: 0 auto;
-  max-width: 1460px;
+  max-width: 1360px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -664,7 +665,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   display: flex;
   margin: 0 auto;
-  max-width: 1460px;
+  max-width: 1360px;
 }
 .locationfeatures__left {
   width: 50%;
@@ -752,7 +753,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   display: flex;
   margin: 0 auto;
-  max-width: 1460px;
+  max-width: 1360px;
 }
 .aboutjseven__left {
   width: 50%;
@@ -1616,7 +1617,14 @@ body::-webkit-scrollbar-track {
     width: 100%;
   }
 }
+@media (max-width: 850px) {
+   .most__luxury__right__content {
+  max-width: 550px;
+}
+
+}
 @media (max-width: 670px) {
+ 
   .most__luxury__right__main__heading {
     font-size: 30px;
   }
